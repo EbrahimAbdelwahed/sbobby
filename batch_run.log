@@ -1,0 +1,589 @@
+============================================================
+  BATCH RUN — 2026-02-27 20:45:53
+  6 lezioni da processare (trascrizione Groq)
+============================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [1/6] anatomia / lezione_01
+  Audio: audio/anatomia/lezione 1.m4a
+  Inizio: 20:45:53
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: anatomia / lezione_01
+============================================================
+
+[pipeline] Pulizia workspace /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_01...
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione 1.m4a (filtri + normalizzazione)...
+[transcribe] Audio 135 min → 9 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/9 (12.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2106 parole
+[transcribe-groq] Trascrizione chunk 2/9 (12.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2142 parole
+[transcribe-groq] Trascrizione chunk 3/9 (12.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2019 parole
+[transcribe-groq] Trascrizione chunk 4/9 (11.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2098 parole
+[transcribe-groq] Trascrizione chunk 5/9 (11.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2243 parole
+[transcribe-groq] Trascrizione chunk 6/9 (11.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2128 parole
+[transcribe-groq] Trascrizione chunk 7/9 (11.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2009 parole
+[transcribe-groq] Trascrizione chunk 8/9 (11.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2104 parole
+[transcribe-groq] Trascrizione chunk 9/9 (11.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1935 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_01/lezione 1.txt (~18784 parole)
+[pipeline] Rinominato lezione 1.txt → lezione_01.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 11 segmenti (611 frasi totali)
+  [1] Introduzione al corso, presentazione docenti e struttura dell'esame (~1938 parole)
+  [2] Materiali didattici, modalità d'esame e consigli di studio (~2098 parole)
+  [3] Definizione di anatomia: approcci sistematico, topografico e relazione forma-funzione (~1559 parole)
+  [4] Anatomia microscopica, tessuti e specializzazione cellulare (esempio muscolare) (~1388 parole)
+  [5] Anatomia topografica, punti di repere e loro importanza clinica (~1709 parole)
+  [6] Imaging radiologico, piani di riferimento e convenzioni anatomiche (~2229 parole)
+  [7] Suddivisione del corpo in regioni: testa, tronco, arti e cavità (~1884 parole)
+  [8] Sviluppo embriologico delle cavità corporee e membrane sierose (pleura, pericardio, peritoneo) (~1940 parole)
+  [9] Logge anatomiche, fasce connettivali e loro ruolo nel contenere e sostenere gli organi (~1615 parole)
+  [10] Tessuto connettivo: struttura, funzione e ruolo nell'integrazione corporea (~1820 parole)
+  [11] Posizione anatomica di riferimento, piani (sagittale, frontale, trasverso) e terminologia direzionale (~2009 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/11: segmento_01.txt
+[elaborate] Elaboro segmento 2/11: segmento_02.txt
+[elaborate] Elaboro segmento 3/11: segmento_03.txt
+[elaborate] Elaboro segmento 4/11: segmento_04.txt
+[elaborate] Elaboro segmento 5/11: segmento_05.txt
+[elaborate] Elaboro segmento 6/11: segmento_06.txt
+[elaborate] Elaboro segmento 7/11: segmento_07.txt
+[elaborate] Elaboro segmento 8/11: segmento_08.txt
+[elaborate] Elaboro segmento 9/11: segmento_09.txt
+[elaborate] Elaboro segmento 10/11: segmento_10.txt
+[elaborate] Elaboro segmento 11/11: segmento_11.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 11 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_01.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_01_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 2 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki ---
+[pipeline] Generazione card cloze da tabelle...
+[anki] Trovate 12 tabelle, 49 righe totali
+[anki] Generate 48 card cloze
+[anki] Aggiunte 48 card cloze, 0 duplicate saltate
+[pipeline] Generazione card basic via LLM...
+[flashcards_llm] Generazione card anatomia/lezione_01 via LLM...
+[flashcards_llm] Testo descrittivo: 50964 caratteri
+[flashcards_llm] Generate 10 card basic valide
+[anki] Aggiunte 10 card basic, 0 duplicate saltate
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_01.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_01_studio.md
+============================================================
+
+  ✓ [1/6] anatomia/lezione_01 completato (21:11:30)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [2/6] anatomia / lezione_02
+  Audio: audio/anatomia/lezione_2.m4a
+  Inizio: 21:11:30
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: anatomia / lezione_02
+============================================================
+
+[pipeline] Pulizia workspace /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_02...
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_2.m4a (filtri + normalizzazione)...
+[transcribe] Audio 103 min → 7 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/7 (13.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1816 parole
+[transcribe-groq] Trascrizione chunk 2/7 (12.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2186 parole
+[transcribe-groq] Trascrizione chunk 3/7 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2024 parole
+[transcribe-groq] Trascrizione chunk 4/7 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2030 parole
+[transcribe-groq] Trascrizione chunk 5/7 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1959 parole
+[transcribe-groq] Trascrizione chunk 6/7 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2047 parole
+[transcribe-groq] Trascrizione chunk 7/7 (10.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1775 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_02/lezione_2.txt (~13837 parole)
+[pipeline] Rinominato lezione_2.txt → lezione_02.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 11 segmenti (448 frasi totali)
+  [1] Introduzione alla lezione e concetti di movimento articolare (~1156 parole)
+  [2] Rapporto superficie-volume corporeo e sue implicazioni fisiologiche (~1694 parole)
+  [3] Indice di Massa Corporea (BMI): definizione, calcolo e significato clinico (~1449 parole)
+  [4] BMI, grasso corporeo e metodi di valutazione della composizione corporea (~1057 parole)
+  [5] Classificazione delle ossa in base alla forma (lunghe, brevi, piatte, irregolari) (~1122 parole)
+  [6] Ossa pneumatiche, sesamoidi e funzioni specifiche delle cavità ossee (~1178 parole)
+  [7] Tessuto osseo: cellule (osteoblasti, osteociti, osteoclasti) e matrice (~1524 parole)
+  [8] Regolazione del calcio osseo, carico meccanico e osteoporosi (~1226 parole)
+  [9] Struttura macroscopica dell'osso: compatto, spugnoso, diafisi, epifisi (~1228 parole)
+  [10] Vascolarizzazione ossea e unità strutturale: l'osteone (~1255 parole)
+  [11] Inserzioni tendinee, periostio, endosteo e rigenerazione ossea (~861 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/11: segmento_01.txt
+[elaborate] Elaboro segmento 2/11: segmento_02.txt
+[elaborate] Elaboro segmento 3/11: segmento_03.txt
+[elaborate] Elaboro segmento 4/11: segmento_04.txt
+[elaborate] Elaboro segmento 5/11: segmento_05.txt
+[elaborate] Elaboro segmento 6/11: segmento_06.txt
+[elaborate] Elaboro segmento 7/11: segmento_07.txt
+[elaborate] Elaboro segmento 8/11: segmento_08.txt
+[elaborate] Elaboro segmento 9/11: segmento_09.txt
+[elaborate] Elaboro segmento 10/11: segmento_10.txt
+[elaborate] Elaboro segmento 11/11: segmento_11.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 11 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_02.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_02_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 2 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki ---
+[pipeline] Generazione card cloze da tabelle...
+[anki] Trovate 10 tabelle, 34 righe totali
+[anki] Generate 34 card cloze
+[anki] Aggiunte 34 card cloze, 0 duplicate saltate
+[pipeline] Generazione card basic via LLM...
+[flashcards_llm] Generazione card anatomia/lezione_02 via LLM...
+[flashcards_llm] Testo descrittivo: 31051 caratteri
+[flashcards_llm] Generate 12 card basic valide
+[anki] Aggiunte 12 card basic, 0 duplicate saltate
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_02.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_02_studio.md
+============================================================
+
+  ✓ [2/6] anatomia/lezione_02 completato (21:33:13)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [3/6] biochimica / lezione_01
+  Audio: audio/biochimica/lezione_1.m4a
+  Inizio: 21:33:13
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: biochimica / lezione_01
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_1.m4a (filtri + normalizzazione)...
+[transcribe] Audio 94 min → 7 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/7 (16.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1709 parole
+[transcribe-groq] Trascrizione chunk 2/7 (16.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1496 parole
+[transcribe-groq] Trascrizione chunk 3/7 (15.6MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1677 parole
+[transcribe-groq] Trascrizione chunk 4/7 (15.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1562 parole
+[transcribe-groq] Trascrizione chunk 5/7 (16.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1558 parole
+[transcribe-groq] Trascrizione chunk 6/7 (15.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1642 parole
+[transcribe-groq] Trascrizione chunk 7/7 (4.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 392 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_01/lezione_1.txt (~10036 parole)
+[pipeline] Rinominato lezione_1.txt → lezione_01.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 1 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 5 segmenti (234 frasi totali)
+  [1] Introduzione al corso: docenti, struttura, obiettivi e metodologia didattica (~1710 parole)
+  [2] Importanza del pensiero biochimico e premessa sulle interazioni deboli (legami idrogeno, Van der Waals, idrofobiche) (~2588 parole)
+  [3] Contestualizzazione della biochimica nella cellula e ripresa degli aminoacidi: classificazione e proprietà (~2270 parole)
+  [4] Aminoacidi carichi, aromatici, essenziali e modificazioni post-traduzionali (~3416 parole)
+  [5] Mutazioni conservative/non conservative, chiralità degli aminoacidi e considerazioni etico-scientifiche (~1137 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/5: segmento_01.txt
+[elaborate] Elaboro segmento 2/5: segmento_02.txt
+[elaborate] Elaboro segmento 3/5: segmento_03.txt
+[elaborate] Elaboro segmento 4/5: segmento_04.txt
+[elaborate] Elaboro segmento 5/5: segmento_05.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 5 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_01.md
+
+--- STEP 6: Strutture chimiche ---
+[chem_renderer] 3 composti non risolti → /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_01/structures/unresolved.log
+[chem_renderer] Completato. Strutture renderizzate: 12
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (biochimica)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_01_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 13 file copiati in Sbobine/Biochimica/
+
+--- STEP 9: Flashcard Anki ---
+[pipeline] Generazione card cloze da tabelle...
+[anki] Trovate 8 tabelle, 42 righe totali
+[anki] Generate 48 card cloze
+[anki] Aggiunte 48 card cloze, 0 duplicate saltate
+[pipeline] Generazione card basic via LLM...
+[flashcards_llm] Generazione card biochimica/lezione_01 via LLM...
+[flashcards_llm] Testo descrittivo: 28065 caratteri
+[flashcards_llm] Generate 10 card basic valide
+[anki] Aggiunte 10 card basic, 0 duplicate saltate
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_01.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_01_studio.md
+============================================================
+
+  ✓ [3/6] biochimica/lezione_01 completato (21:50:44)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [4/6] biochimica / lezione_02
+  Audio: audio/biochimica/lezione_2.m4a
+  Inizio: 21:50:44
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: biochimica / lezione_02
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_2.m4a (filtri + normalizzazione)...
+[transcribe] Audio 133 min → 9 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/9 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1520 parole
+[transcribe-groq] Trascrizione chunk 2/9 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1527 parole
+[transcribe-groq] Trascrizione chunk 3/9 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1628 parole
+[transcribe-groq] Trascrizione chunk 4/9 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1678 parole
+[transcribe-groq] Trascrizione chunk 5/9 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1518 parole
+[transcribe-groq] Trascrizione chunk 6/9 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1767 parole
+[transcribe-groq] Trascrizione chunk 7/9 (13.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1550 parole
+[transcribe-groq] Trascrizione chunk 8/9 (13.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1674 parole
+[transcribe-groq] Trascrizione chunk 9/9 (11.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1345 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_02/lezione_2.txt (~14207 parole)
+[pipeline] Rinominato lezione_2.txt → lezione_02.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 1 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 13 segmenti (380 frasi totali)
+  [1] Introduzione alla lezione e importanza della struttura proteica (~876 parole)
+  [2] Ripasso proprietà aminoacidi, carica e punto isoelettrico (~1241 parole)
+  [3] Dal punto isoelettrico al ruolo tampone delle proteine nel sangue (~1334 parole)
+  [4] Transizione da aminoacidi a proteine: legame peptidico e peptidi (~1356 parole)
+  [5] Introduzione ai livelli di struttura proteica e definizione struttura primaria (~882 parole)
+  [6] Esempio pratico: struttura della proteina Spike e concetto di dominio (~1581 parole)
+  [7] Meccanismi del folding: legame peptidico, angoli di torsione e grafico di Ramachandran (~1474 parole)
+  [8] Definizione e caratteristiche della struttura secondaria: alfa-elica (~1068 parole)
+  [9] Struttura secondaria: foglietto beta e altri elementi (beta-turn, anse) (~1650 parole)
+  [10] Banche dati proteiche e transizione verso struttura terziaria e quaternaria (~1130 parole)
+  [11] Definizione struttura terziaria, forze stabilizzanti e influenza dell'ambiente (~1209 parole)
+  [12] Concetti avanzati: motivi strutturali, domini proteici e struttura quaternaria (~1555 parole)
+  [13] Famiglie proteiche, evoluzione e cenno alle proteine coniugate (~1135 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/13: segmento_01.txt
+[elaborate] Elaboro segmento 2/13: segmento_02.txt
+[elaborate] Elaboro segmento 3/13: segmento_03.txt
+[elaborate] Elaboro segmento 4/13: segmento_04.txt
+[elaborate] Elaboro segmento 5/13: segmento_05.txt
+[elaborate] Elaboro segmento 6/13: segmento_06.txt
+[elaborate] Elaboro segmento 7/13: segmento_07.txt
+[elaborate] Elaboro segmento 8/13: segmento_08.txt
+[elaborate] Elaboro segmento 9/13: segmento_09.txt
+[elaborate] Elaboro segmento 10/13: segmento_10.txt
+[elaborate] Elaboro segmento 11/13: segmento_11.txt
+[elaborate] Elaboro segmento 12/13: segmento_12.txt
+[elaborate] Elaboro segmento 13/13: segmento_13.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 13 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_02.md
+
+--- STEP 6: Strutture chimiche ---
+[chem_renderer] 1 composti non risolti → /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_02/structures/unresolved.log
+[chem_renderer] Completato. Strutture renderizzate: 8
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (biochimica)...
+Traceback (most recent call last):
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/pipeline.py", line 305, in <module>
+    main()
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/pipeline.py", line 301, in main
+    STEPS[command](args, backend)
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/pipeline.py", line 283, in <lambda>
+    "run": lambda args, b: run_full(args[0], args[1], args[2], backend=b),
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/pipeline.py", line 250, in run_full
+    step_compact(subject, lesson)
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/pipeline.py", line 194, in step_compact
+    compact_to_file(sbobina, paths["compact"], subject)
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/compact.py", line 43, in compact_to_file
+    result = compact(sbobina_text, subject)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/compact.py", line 37, in compact
+    return chat(messages, provider="deepseek-reasoner", max_tokens=61440)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/api_client.py", line 53, in chat
+    return _call(messages, provider, temperature, max_tokens)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/src/api_client.py", line 90, in _call
+    data = json.loads(resp.read().decode())
+                      ^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/http/client.py", line 467, in read
+    return self._read_chunked(amt)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/http/client.py", line 590, in _read_chunked
+    chunk_left = self._get_chunk_left()
+                 ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/http/client.py", line 573, in _get_chunk_left
+    chunk_left = self._read_next_chunk_size()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/http/client.py", line 533, in _read_next_chunk_size
+    line = self.fp.readline(_MAXLINE + 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/sbobine/lib/python3.11/ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+  ✗ [4/6] biochimica/lezione_02 FALLITO (22:15:18)
+  Continuo con la prossima lezione...
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [5/6] biochimica / lezione_03
+  Audio: audio/biochimica/lezione_3.m4a
+  Inizio: 22:15:18
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: biochimica / lezione_03
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_3.m4a (filtri + normalizzazione)...
+[transcribe] Audio 130 min → 9 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/9 (13.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1516 parole
+[transcribe-groq] Trascrizione chunk 2/9 (13.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1722 parole
+[transcribe-groq] Trascrizione chunk 3/9 (14.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1613 parole
+[transcribe-groq] Trascrizione chunk 4/9 (14.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1626 parole
+[transcribe-groq] Trascrizione chunk 5/9 (14.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1594 parole
+[transcribe-groq] Trascrizione chunk 6/9 (14.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1624 parole
+[transcribe-groq] Trascrizione chunk 7/9 (14.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1606 parole
+[transcribe-groq] Trascrizione chunk 8/9 (14.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1568 parole
+[transcribe-groq] Trascrizione chunk 9/9 (9.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 971 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_03/lezione_3.txt (~13840 parole)
+[pipeline] Rinominato lezione_3.txt → lezione_03.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 1 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 7 segmenti (328 frasi totali)
+  [1] Introduzione alla lezione e concetti di struttura nativa e denaturazione (~1712 parole)
+  [2] Meccanismi e conseguenze della denaturazione, aggregazione proteica e malattie (~2337 parole)
+  [3] Il problema del folding proteico: dogma sequenza-struttura e esperimento di Anfinsen (~1702 parole)
+  [4] Teoria del folding: paradosso di Levinthal, intermedi e imbuto energetico (~2155 parole)
+  [5] Termodinamica del folding, chaperon molecolari e proteine intrinsecamente disordinate (~2020 parole)
+  [6] Malattie da misfolding: esempi clinici (fibrosi cistica, amiloidosi, prioni) (~2433 parole)
+  [7] Introduzione a emoglobina e mioglobina: localizzazione, struttura e funzione (~2640 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/7: segmento_01.txt
+[elaborate] Elaboro segmento 2/7: segmento_02.txt
+[elaborate] Elaboro segmento 3/7: segmento_03.txt
+[elaborate] Elaboro segmento 4/7: segmento_04.txt
+[elaborate] Elaboro segmento 5/7: segmento_05.txt
+[elaborate] Elaboro segmento 6/7: segmento_06.txt
+[elaborate] Elaboro segmento 7/7: segmento_07.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 7 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_03.md
+
+--- STEP 6: Strutture chimiche ---
+[chem_renderer] Completato. Strutture renderizzate: 3
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (biochimica)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_03_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 5 file copiati in Sbobine/Biochimica/
+
+--- STEP 9: Flashcard Anki ---
+[pipeline] Generazione card cloze da tabelle...
+[anki] Trovate 8 tabelle, 42 righe totali
+[anki] Generate 39 card cloze
+[anki] Aggiunte 39 card cloze, 0 duplicate saltate
+[pipeline] Generazione card basic via LLM...
+[flashcards_llm] Generazione card biochimica/lezione_03 via LLM...
+[flashcards_llm] Testo descrittivo: 23472 caratteri
+[flashcards_llm] Generate 14 card basic valide
+[anki] Aggiunte 14 card basic, 0 duplicate saltate
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_03.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_03_studio.md
+============================================================
+
+  ✓ [5/6] biochimica/lezione_03 completato (22:36:20)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  [6/6] istologia / lezione_01
+  Audio: audio/istologia/lezione 1.m4a
+  Inizio: 22:36:20
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+============================================================
+  Pipeline: istologia / lezione_01
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione 1.m4a (filtri + normalizzazione)...
+[transcribe] Audio 94 min → 7 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/7 (13.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1628 parole
+[transcribe-groq] Trascrizione chunk 2/7 (12.6MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1668 parole
+[transcribe-groq] Trascrizione chunk 3/7 (12.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1598 parole
+[transcribe-groq] Trascrizione chunk 4/7 (12.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1628 parole
+[transcribe-groq] Trascrizione chunk 5/7 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1609 parole
+[transcribe-groq] Trascrizione chunk 6/7 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1711 parole
+[transcribe-groq] Trascrizione chunk 7/7 (3.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 395 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/istologia/lezione_01/lezione 1.txt (~10237 parole)
+[pipeline] Rinominato lezione 1.txt → lezione_01.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 4 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 7 segmenti (436 frasi totali)
+  [1] Introduzione al corso, definizione di istologia e tessuto (~1438 parole)
+  [2] Istologia come materia morfologica e correlazione forma-funzione (~1064 parole)
+  [3] Limite di risoluzione e introduzione al microscopio ottico (~1473 parole)
+  [4] Microscopia elettronica e tecniche avanzate (crioelettronica, scansione) (~2246 parole)
+  [5] Preparazione del campione istologico: fissazione e inclusione (~2202 parole)
+  [6] Colorazione istologica e principi di basofilia/acidofilia (~771 parole)
+  [7] Analisi di un preparato: mucosa intestinale e correlazione struttura-funzione (~1831 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/7: segmento_01.txt
+[elaborate] Elaboro segmento 2/7: segmento_02.txt
+[elaborate] Elaboro segmento 3/7: segmento_03.txt
+[elaborate] Elaboro segmento 4/7: segmento_04.txt
+[elaborate] Elaboro segmento 5/7: segmento_05.txt
+[elaborate] Elaboro segmento 6/7: segmento_06.txt
+[elaborate] Elaboro segmento 7/7: segmento_07.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 7 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_01.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (istologia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_01_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 2 file copiati in Sbobine/Istologia/
+
+--- STEP 9: Flashcard Anki ---
+[pipeline] Generazione card cloze da tabelle...
+[anki] Trovate 8 tabelle, 58 righe totali
+[anki] Generate 61 card cloze
+[anki] Aggiunte 61 card cloze, 0 duplicate saltate
+[pipeline] Generazione card basic via LLM...
+[flashcards_llm] Generazione card istologia/lezione_01 via LLM...
+[flashcards_llm] Testo descrittivo: 33812 caratteri
+[flashcards_llm] Generate 12 card basic valide
+[anki] Aggiunte 12 card basic, 0 duplicate saltate
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_01.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_01_studio.md
+============================================================
+
+  ✓ [6/6] istologia/lezione_01 completato (22:56:09)
+
+============================================================
+  BATCH COMPLETATO — 2026-02-27 22:56:09
+  Successo: 5/6
+  Falliti: 1
+  - biochimica/lezione_02
+
+  Log completo: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/batch_run.log
+============================================================

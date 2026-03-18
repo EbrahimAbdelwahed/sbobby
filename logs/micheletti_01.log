@@ -1,0 +1,103 @@
+
+============================================================
+  Pipeline: anatomia / lezione_micheletti_01
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_micheletti_1.m4a (filtri + normalizzazione)...
+[transcribe] Audio 138 min → 10 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/10 (13.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1501 parole
+[transcribe-groq] Trascrizione chunk 2/10 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1538 parole
+[transcribe-groq] Trascrizione chunk 3/10 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1640 parole
+[transcribe-groq] Trascrizione chunk 4/10 (13.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1565 parole
+[transcribe-groq] Trascrizione chunk 5/10 (13.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1447 parole
+[transcribe-groq] Trascrizione chunk 6/10 (13.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1659 parole
+[transcribe-groq] Trascrizione chunk 7/10 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1657 parole
+[transcribe-groq] Trascrizione chunk 8/10 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1582 parole
+[transcribe-groq] Trascrizione chunk 9/10 (13.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1490 parole
+[transcribe-groq] Trascrizione chunk 10/10 (3.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 350 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_micheletti_01/lezione_micheletti_1.txt (~14429 parole)
+[pipeline] Rinominato lezione_micheletti_1.txt → lezione_micheletti_01.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 10 segmenti (714 frasi totali)
+  [1] Introduzione al corso: presentazione del docente, argomenti del programma e organizzazione didattica (~1179 parole)
+  [2] Informazioni logistiche e strumenti per il corso (app, link, course catalog) (~649 parole)
+  [3] Introduzione all'apparato vascolare: circolo polmonare e sistemico, sistema linfatico e funzioni (~1457 parole)
+  [4] Struttura istologica dei vasi sanguigni: tonache, endotelio, muscolatura liscia e vasa vasorum (~1972 parole)
+  [5] Angiogenesi: ruolo fisiologico e patologico (ciclo mestruale, neoplasie, retinopatia diabetica) (~486 parole)
+  [6] Confronto tra arterie e vene: spessore, pressione, resistenza e caratteristiche istologiche (~1969 parole)
+  [7] Regolazione del tono vascolare: sistema nervoso autonomo, ormoni, fattori metabolici e chimici (~1628 parole)
+  [8] Anatomia del sistema venoso: classificazione, struttura, valvole e meccanismo di ritorno (~2543 parole)
+  [9] Patologie venose: insufficienza valvolare, stasi, trombosi, varici e fattori di rischio (gravidanza) (~1883 parole)
+  [10] I capillari: struttura, tipologie, meccanismi di scambio (pressione idrostatica e oncotica) e drenaggio linfatico (~1971 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/10: segmento_01.txt
+[elaborate] Elaboro segmento 2/10: segmento_02.txt
+[elaborate] Elaboro segmento 3/10: segmento_03.txt
+[elaborate] Elaboro segmento 4/10: segmento_04.txt
+[elaborate] Elaboro segmento 5/10: segmento_05.txt
+[elaborate] Elaboro segmento 6/10: segmento_06.txt
+[elaborate] Elaboro segmento 7/10: segmento_07.txt
+[elaborate] Elaboro segmento 8/10: segmento_08.txt
+[elaborate] Elaboro segmento 9/10: segmento_09.txt
+[elaborate] Elaboro segmento 10/10: segmento_10.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 10 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_micheletti_01.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_micheletti_01_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 7 sezioni trovate in lezione_micheletti_01_studio.md
+[flashcards_llm] Invio sezione 1/7: "Introduzione all'Apparato Vascolare e Sistema Linfatico"...
+[flashcards_llm] Invio sezione 2/7: "Struttura Istologica delle Pareti Vasali"...
+[flashcards_llm] Invio sezione 3/7: "Angiogenesi e Correlazioni Cliniche"...
+[flashcards_llm] Invio sezione 4/7: "Confronto tra Arterie e Vene: Struttura e Classificazione"...
+[flashcards_llm] Invio sezione 5/7: "Regolazione del Tono Vascolare"...
+[flashcards_llm] Invio sezione 6/7: "Sistema Venoso: Anatomia, Fisiologia e Patologie"...
+[flashcards_llm]   Sezione 3/7: "Angiogenesi e Correlazioni Cliniche" → 2 card, 2 brain dump
+[flashcards_llm] Invio sezione 7/7: "I Capillari: Struttura, Scambio e Drenaggio"...
+[flashcards_llm]   Sezione 1/7: "Introduzione all'Apparato Vascolare e Sistema Linfatico" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 2/7: "Struttura Istologica delle Pareti Vasali" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 6/7: "Sistema Venoso: Anatomia, Fisiologia e Patologie" → 7 card, 5 brain dump
+[flashcards_llm]   Sezione 5/7: "Regolazione del Tono Vascolare" → 6 card, 1 brain dump
+[flashcards_llm]   Sezione 4/7: "Confronto tra Arterie e Vene: Struttura e Classificazione" → 3 card, 2 brain dump
+[flashcards_llm]   Sezione 7/7: "I Capillari: Struttura, Scambio e Drenaggio" → 2 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (24 → 23)
+[anki] Aggiunte 23 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 23 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_micheletti_01_studio.md (13 topic)
+[anki] Sincronizzazione AnkiWeb avviata
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (9 lezioni, 1 sezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_micheletti_01.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_micheletti_01_studio.md
+============================================================
+

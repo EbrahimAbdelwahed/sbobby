@@ -1,0 +1,80 @@
+
+============================================================
+  Pipeline: istologia / lezione_03
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_3.m4a (filtri + normalizzazione)...
+[transcribe] Audio 61 min → 5 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/5 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1761 parole
+[transcribe-groq] Trascrizione chunk 2/5 (12.6MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1673 parole
+[transcribe-groq] Trascrizione chunk 3/5 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1637 parole
+[transcribe-groq] Trascrizione chunk 4/5 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1728 parole
+[transcribe-groq] Trascrizione chunk 5/5 (1.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 170 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/istologia/lezione_03/lezione_3.txt (~6969 parole)
+[pipeline] Rinominato lezione_3.txt → lezione_03.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 4 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 6 segmenti (238 frasi totali)
+  [1] Proteine canale: tipologie, regolazione e patologie (canalopatie) (~782 parole)
+  [2] Trasportatori di membrana, pompe e meccanismo del cotrasporto sodio-glucosio (~1236 parole)
+  [3] Pompe ABC, patologie correlate e dinamicità della membrana (endocitosi/esocitosi) (~1743 parole)
+  [4] Endocitosi: tipologie (mediata da recettore, pinocitosi, fagocitosi) e meccanismi (~818 parole)
+  [5] Esocitosi, meccanismi di direzionamento vescicolare e giunzioni cellulari (~1706 parole)
+  [6] Introduzione al citoplasma e approfondimento sul reticolo endoplasmatico liscio (REL) (~1656 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/6: segmento_01.txt
+[elaborate] Elaboro segmento 2/6: segmento_02.txt
+[elaborate] Elaboro segmento 3/6: segmento_03.txt
+[elaborate] Elaboro segmento 4/6: segmento_04.txt
+[elaborate] Elaboro segmento 5/6: segmento_05.txt
+[elaborate] Elaboro segmento 6/6: segmento_06.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 6 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_03.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (istologia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_03_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Istologia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 5 sezioni trovate in lezione_03_studio.md
+[flashcards_llm] Invio sezione 1/5: "Citoplasma e Reticolo Endoplasmatico Liscio (REL)"...
+[flashcards_llm] Invio sezione 2/5: "Canali Ionici"...
+[flashcards_llm] Invio sezione 3/5: "Trasportatori, Pompa e Cotrasporto"...
+[flashcards_llm] Invio sezione 4/5: "Dinamicità di Membrana e Traffico Vescicolare"...
+[flashcards_llm] Invio sezione 5/5: "Giunzioni Cellulari"...
+[flashcards_llm]   Sezione 1/5: "Citoplasma e Reticolo Endoplasmatico Liscio (REL)" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 4/5: "Dinamicità di Membrana e Traffico Vescicolare" → 6 card, 1 brain dump
+[flashcards_llm]   Sezione 5/5: "Giunzioni Cellulari" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 2/5: "Canali Ionici" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 3/5: "Trasportatori, Pompa e Cotrasporto" → 6 card, 1 brain dump
+[anki] Aggiunte 22 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 22 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_03_studio.md (5 topic)
+[anki] Sincronizzazione AnkiWeb avviata
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/brain_dump_istologia.md (3 lezioni, 1 sezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_03.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_03_studio.md
+============================================================
+

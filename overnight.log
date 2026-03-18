@@ -1,0 +1,963 @@
+
+=================================================================
+  run_overnight.py — avviato 2026-03-10 01:03:52
+=================================================================
+
+
+=================================================================
+  FASE 1 — Flashcard + brain dump sbobine esistenti
+=================================================================
+
+[01:03:52] >>> anatomia/lezione_01
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] Sezione 'Presentazione del Corso e Modalità di Studio' esclusa (info corso)
+[flashcards_llm] 11 sezioni trovate in lezione_01_studio.md
+[flashcards_llm] Invio sezione 1/11: "Definizione e Approcci all'Anatomia"...
+[flashcards_llm] Invio sezione 2/11: "Gerarchia Strutturale e Organizzazione"...
+[flashcards_llm] Invio sezione 3/11: "Tipi di Tessuto Muscolare: Specializzazione Funzionale"...[flashcards_llm] Invio sezione 4/11: "Anatomia Topografica, Punti di Repere e Rapporti"...[flashcards_llm] Invio sezione 5/11: "Imaging Radiologico e Convenzioni"...
+
+
+[flashcards_llm] Invio sezione 6/11: "Piani, Assi e Terminologia Anatomica"...
+[flashcards_llm]   Sezione 3/11: "Tipi di Tessuto Muscolare: Specializzazione Funzionale" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/11: "Suddivisione Topografica del Corpo e Asimmetrie"...
+[flashcards_llm]   Sezione 2/11: "Gerarchia Strutturale e Organizzazione" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/11: "Cavità Corporee: Sviluppo e Definizione Adulta"...
+[flashcards_llm]   Sezione 4/11: "Anatomia Topografica, Punti di Repere e Rapporti" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/11: "Membrane Sierose: Funzione e Clinica"...
+[flashcards_llm]   Sezione 7/11: "Suddivisione Topografica del Corpo e Asimmetrie" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/11: "Logge, Fasce e Funzione del Tessuto Connettivo"...
+[flashcards_llm]   Sezione 5/11: "Imaging Radiologico e Convenzioni" → 2 card, 2 brain dump
+[flashcards_llm] Invio sezione 11/11: "Anatomia di Superficie e Applicazioni Cliniche"...
+[flashcards_llm]   Sezione 9/11: "Membrane Sierose: Funzione e Clinica" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 10/11: "Logge, Fasce e Funzione del Tessuto Connettivo" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 1/11: "Definizione e Approcci all'Anatomia" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 6/11: "Piani, Assi e Terminologia Anatomica" → 12 card, 0 brain dump
+[flashcards_llm]   Sezione 8/11: "Cavità Corporee: Sviluppo e Definizione Adulta" → 1 card, 2 brain dump
+[flashcards_llm]   Sezione 11/11: "Anatomia di Superficie e Applicazioni Cliniche" → 1 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 4 card rimosse (27 → 23)
+[anki] Aggiunte 23 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 23 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_01_studio.md (12 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (1 lezioni)
+[01:07:00] <<< anatomia/lezione_01 completato
+
+[01:07:00] >>> anatomia/lezione_02
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 5 sezioni trovate in lezione_02_studio.md
+[flashcards_llm] Invio sezione 1/5: "Terminologia dei Movimenti e Concetti Biomeccanici"...
+[flashcards_llm] Invio sezione 2/5: "Rapporto Superficie-Volume e Implicazioni"...
+[flashcards_llm] Invio sezione 3/5: "Indice di Massa Corporea (BMI) e Composizione Corporea"...
+[flashcards_llm] Invio sezione 4/5: "Classificazione delle Ossa"...
+[flashcards_llm] Invio sezione 5/5: "Tessuto Osseo: Istologia e Fisiologia"...
+[flashcards_llm]   Sezione 2/5: "Rapporto Superficie-Volume e Implicazioni" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 1/5: "Terminologia dei Movimenti e Concetti Biomeccanici" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 5/5: "Tessuto Osseo: Istologia e Fisiologia" → 7 card, 1 brain dump
+[flashcards_llm]   Sezione 4/5: "Classificazione delle Ossa" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 3/5: "Indice di Massa Corporea (BMI) e Composizione Corporea" → 2 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (13 → 12)
+[anki] Aggiunte 12 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 12 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_02_studio.md (5 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (2 lezioni)
+[01:09:53] <<< anatomia/lezione_02 completato
+
+[01:09:53] >>> anatomia/lezione_03
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 14 sezioni trovate in lezione_03_studio.md
+[flashcards_llm] Invio sezione 1/14: "Tipi di Ossificazione"...
+[flashcards_llm] Invio sezione 2/14: "Ossificazione Endocondrale: Processi e Centri"...
+[flashcards_llm] Invio sezione 3/14: "Rimodellamento Funzionale dell'Osso"...
+[flashcards_llm] Invio sezione 4/14: "Istologia: Osso Compatto e Spugnoso"...
+[flashcards_llm] Invio sezione 5/14: "Funzioni del Tessuto Osseo"...
+[flashcards_llm] Invio sezione 6/14: "Fratture: Meccanismi e Riparazione"...
+[flashcards_llm]   Sezione 4/14: "Istologia: Osso Compatto e Spugnoso" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/14: "Osteoporosi e Regolazione Ormonale"...
+[flashcards_llm]   Sezione 6/14: "Fratture: Meccanismi e Riparazione" → 4 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/14: "Cartilagine Articolare"...
+[flashcards_llm]   Sezione 1/14: "Tipi di Ossificazione" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/14: "Classificazione Generale delle Articolazioni"...
+[flashcards_llm]   Sezione 5/14: "Funzioni del Tessuto Osseo" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/14: "Sinartrosi (Tipologie)"...
+[flashcards_llm]   Sezione 2/14: "Ossificazione Endocondrale: Processi e Centri" → 8 card, 2 brain dump
+[flashcards_llm] Invio sezione 11/14: "Anfiartrosi"...
+[flashcards_llm]   Sezione 3/14: "Rimodellamento Funzionale dell'Osso" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 12/14: "Articolazioni Sinoviali (Diartrosi): Componenti Fondamentali"...
+[flashcards_llm]   Sezione 10/14: "Sinartrosi (Tipologie)" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 13/14: "Elementi Accessori e Articolazioni Complesse"...
+[flashcards_llm]   Sezione 9/14: "Classificazione Generale delle Articolazioni" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 14/14: "Vascolarizzazione, Liquido Sinoviale e Correlazioni Cliniche"...
+[flashcards_llm]   Sezione 7/14: "Osteoporosi e Regolazione Ormonale" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 8/14: "Cartilagine Articolare" → 2 card, 2 brain dump
+[flashcards_llm]   Sezione 14/14: "Vascolarizzazione, Liquido Sinoviale e Correlazioni Cliniche" → 3 card, 0 brain dump
+[flashcards_llm]   Sezione 11/14: "Anfiartrosi" → 4 card, 0 brain dump
+[flashcards_llm]   Sezione 12/14: "Articolazioni Sinoviali (Diartrosi): Componenti Fondamentali" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 13/14: "Elementi Accessori e Articolazioni Complesse" → 4 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (39 → 38)
+[anki] Aggiunte 38 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 38 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_03_studio.md (14 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (3 lezioni)
+[01:12:52] <<< anatomia/lezione_03 completato
+
+[01:12:52] >>> anatomia/lezione_04
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 11 sezioni trovate in lezione_04_studio.md
+[flashcards_llm] Invio sezione 1/11: "Movimenti Articolari e Classificazione per Forma"...
+[flashcards_llm] Invio sezione 2/11: "Compromesso Stabilità/Mobilità: Enartrosi vs. Coxartrosi"...[flashcards_llm] Invio sezione 3/11: "Movimenti Lineari, Angolari e Principio del Braccio di Leva"...
+[flashcards_llm] Invio sezione 4/11: "Biomeccanica Articolare: Rotolamento, Scivolamento e Punti Fissi"...
+[flashcards_llm] Invio sezione 5/11: "Range of Motion (ROM) e Fattori Limitanti"...[flashcards_llm] Invio sezione 6/11: "Meccanismo Protettivo Legamenti-Muscoli e Distribuzione del Carico"...
+
+
+[flashcards_llm]   Sezione 2/11: "Compromesso Stabilità/Mobilità: Enartrosi vs. Coxartrosi" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/11: "Postura, Linea di Gravità e Conseguenze dello Sbilanciamento"...
+[flashcards_llm]   Sezione 3/11: "Movimenti Lineari, Angolari e Principio del Braccio di Leva" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/11: "Leve Biomeccaniche nel Corpo Umano"...
+[flashcards_llm]   Sezione 5/11: "Range of Motion (ROM) e Fattori Limitanti" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/11: "Stabilizzazione Attiva/Passiva e Biomeccanica della Rotula"...
+[flashcards_llm]   Sezione 1/11: "Movimenti Articolari e Classificazione per Forma" → 8 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/11: "Degenerazione Cartilaginea (Artrosi)"...
+[flashcards_llm]   Sezione 4/11: "Biomeccanica Articolare: Rotolamento, Scivolamento e Punti Fissi" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 11/11: "Struttura e Funzione del Muscolo Scheletrico"...
+[flashcards_llm]   Sezione 9/11: "Stabilizzazione Attiva/Passiva e Biomeccanica della Rotula" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 6/11: "Meccanismo Protettivo Legamenti-Muscoli e Distribuzione del Carico" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 7/11: "Postura, Linea di Gravità e Conseguenze dello Sbilanciamento" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 10/11: "Degenerazione Cartilaginea (Artrosi)" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 8/11: "Leve Biomeccaniche nel Corpo Umano" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 11/11: "Struttura e Funzione del Muscolo Scheletrico" → 3 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (25 → 24)
+[anki] Aggiunte 24 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 24 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_04_studio.md (11 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (4 lezioni)
+[01:16:57] <<< anatomia/lezione_04 completato
+
+[01:16:57] >>> anatomia/lezione_05
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 6 sezioni trovate in lezione_05_studio.md
+[flashcards_llm] Invio sezione 1/6: "Neurotrasmissione Neuromuscolare e Contrazione"...
+[flashcards_llm] Invio sezione 2/6: "Organizzazione Muscolare e Tipologie Architettoniche"...
+[flashcards_llm] Invio sezione 3/6: "Inserzioni Tendinee e Strutture Accessorie"...[flashcards_llm] Invio sezione 4/6: "Colonna Vertebrale: Concetti Generali, Curve e Metamerismo"...
+[flashcards_llm] Invio sezione 5/6: "Anatomia della Vertebra e Variazioni Regionali"...
+[flashcards_llm] Invio sezione 6/6: "Legamenti Vertebrali e Disco Intervertebrale"...
+
+[flashcards_llm]   Sezione 3/6: "Inserzioni Tendinee e Strutture Accessorie" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 6/6: "Legamenti Vertebrali e Disco Intervertebrale" → 3 card, 2 brain dump
+[flashcards_llm]   Sezione 1/6: "Neurotrasmissione Neuromuscolare e Contrazione" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 4/6: "Colonna Vertebrale: Concetti Generali, Curve e Metamerismo" → 5 card, 1 brain dump
+[flashcards_llm]   Sezione 2/6: "Organizzazione Muscolare e Tipologie Architettoniche" → 2 card, 2 brain dump
+[flashcards_llm]   Sezione 5/6: "Anatomia della Vertebra e Variazioni Regionali" → 1 card, 2 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (15 → 14)
+[anki] Aggiunte 14 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 14 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_05_studio.md (9 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (5 lezioni)
+[01:19:00] <<< anatomia/lezione_05 completato
+
+[01:19:00] >>> biochimica/lezione_01
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 10 sezioni trovate in lezione_01_studio.md
+[flashcards_llm] Invio sezione 1/10: "Premessa e Obiettivi del Corso"...[flashcards_llm] Invio sezione 2/10: "Esempio Pratico: Il Pensiero Biochimico"...
+[flashcards_llm] Invio sezione 3/10: "Le Interazioni Deboli"...
+[flashcards_llm] Invio sezione 4/10: "Contesto Cellulare: la Compartimentalizzazione"...
+[flashcards_llm] Invio sezione 5/10: "Classificazione degli Aminoacidi per Polarità"...
+[flashcards_llm] Invio sezione 6/10: "Dettaglio dei Gruppi di Aminoacidi"...
+
+[flashcards_llm]   Sezione 1/10: "Premessa e Obiettivi del Corso" → 0 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/10: "Aminoacidi Essenziali"...
+[flashcards_llm]   Sezione 2/10: "Esempio Pratico: Il Pensiero Biochimico" → 2 card, 0 brain dump
+[flashcards_llm] Invio sezione 8/10: "Modificazioni Post-Traduzionali"...
+[flashcards_llm]   Sezione 7/10: "Aminoacidi Essenziali" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/10: "Mutazioni (Sostituzioni Aminoacidiche)"...
+[flashcards_llm]   Sezione 4/10: "Contesto Cellulare: la Compartimentalizzazione" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/10: "Chiralità e Omochiralità"...
+[flashcards_llm]   Sezione 10/10: "Chiralità e Omochiralità" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 5/10: "Classificazione degli Aminoacidi per Polarità" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 3/10: "Le Interazioni Deboli" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 6/10: "Dettaglio dei Gruppi di Aminoacidi" → 6 card, 1 brain dump
+[flashcards_llm]   Sezione 9/10: "Mutazioni (Sostituzioni Aminoacidiche)" → 1 card, 0 brain dump
+[flashcards_llm]   Sezione 8/10: "Modificazioni Post-Traduzionali" → 6 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (20 → 19)
+[anki] Aggiunte 19 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 19 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_01_studio.md (7 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (1 lezioni)
+[01:21:51] <<< biochimica/lezione_01 completato
+
+[01:21:51] >>> biochimica/lezione_02
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] Sezione 'Informazioni e Approccio al Corso' esclusa (info corso)
+[flashcards_llm] 10 sezioni trovate in lezione_02_studio.md
+[flashcards_llm] Invio sezione 1/10: "Struttura Proteica, Funzione e Proprietà Fondamentali"...
+[flashcards_llm] Invio sezione 2/10: "Ruolo Tampone delle Proteine: il Caso dell'Istidina"...
+[flashcards_llm] Invio sezione 3/10: "Legame Peptidico, Peptidi e il Caso del Glutatione"...
+[flashcards_llm] Invio sezione 4/10: "I Livelli di Struttura Proteica"...
+[flashcards_llm] Invio sezione 5/10: "Folding: Vincoli e Ruolo di Glicina e Prolina nel Collagene"...[flashcards_llm] Invio sezione 6/10: "Struttura Secondaria: Elementi Stereotipati"...
+
+[flashcards_llm]   Sezione 2/10: "Ruolo Tampone delle Proteine: il Caso dell'Istidina" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/10: "Struttura Terziaria e Influenza dell'Ambiente"...
+[flashcards_llm]   Sezione 5/10: "Folding: Vincoli e Ruolo di Glicina e Prolina nel Collagene" → 7 card, 0 brain dump
+[flashcards_llm] Invio sezione 8/10: "Organizzazione Avanzata: Motivi, Domini, Famiglie e Proteine Coniugate"...
+[flashcards_llm]   Sezione 4/10: "I Livelli di Struttura Proteica" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/10: "Struttura Quaternaria e Cooperatività"...
+[flashcards_llm]   Sezione 8/10: "Organizzazione Avanzata: Motivi, Domini, Famiglie e Proteine Coniugate" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/10: "Banche Dati Proteiche (Risorsa Pratica)"...
+[flashcards_llm]   Sezione 1/10: "Struttura Proteica, Funzione e Proprietà Fondamentali" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 3/10: "Legame Peptidico, Peptidi e il Caso del Glutatione" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 9/10: "Struttura Quaternaria e Cooperatività" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 7/10: "Struttura Terziaria e Influenza dell'Ambiente" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 10/10: "Banche Dati Proteiche (Risorsa Pratica)" → 3 card, 0 brain dump
+[flashcards_llm]   Sezione 6/10: "Struttura Secondaria: Elementi Stereotipati" → 7 card, 0 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (30 → 29)
+[anki] Aggiunte 29 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 29 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_02_studio.md (7 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (2 lezioni)
+[01:24:27] <<< biochimica/lezione_02 completato
+
+[01:24:27] >>> biochimica/lezione_03
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 7 sezioni trovate in lezione_03_studio.md
+[flashcards_llm] Invio sezione 1/7: "Introduzione e concetti fondamentali"...
+[flashcards_llm] Invio sezione 2/7: "Denaturazione e agenti denaturanti"...
+[flashcards_llm] Invio sezione 3/7: "Il problema del folding e il meccanismo guidato"...
+[flashcards_llm] Invio sezione 4/7: "Chaperon molecolari e controllo del folding"...
+[flashcards_llm] Invio sezione 5/7: "Dinamica strutturale e proteine intrinsecamente disordinate"...
+[flashcards_llm] Invio sezione 6/7: "Conseguenze del misfolding e malattie correlate"...
+[flashcards_llm]   Sezione 2/7: "Denaturazione e agenti denaturanti" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/7: "Emoglobina e Mioglobina: struttura e funzione"...
+[flashcards_llm]   Sezione 1/7: "Introduzione e concetti fondamentali" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 6/7: "Conseguenze del misfolding e malattie correlate" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 5/7: "Dinamica strutturale e proteine intrinsecamente disordinate" → 0 card, 2 brain dump
+[flashcards_llm]   Sezione 4/7: "Chaperon molecolari e controllo del folding" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 3/7: "Il problema del folding e il meccanismo guidato" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 7/7: "Emoglobina e Mioglobina: struttura e funzione" → 2 card, 1 brain dump
+[anki] Aggiunte 14 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 14 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_03_studio.md (8 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (3 lezioni)
+[01:27:46] <<< biochimica/lezione_03 completato
+
+[01:27:46] >>> biochimica/lezione_04
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 10 sezioni trovate in lezione_04_studio.md
+[flashcards_llm] Invio sezione 1/10: "Struttura e funzione di mioglobina ed emoglobina"...
+[flashcards_llm] Invio sezione 2/10: "Il gruppo eme e il ruolo delle istidine"...
+[flashcards_llm] Invio sezione 3/10: "Curve di saturazione: definizioni e confronto"...[flashcards_llm] Invio sezione 4/10: "Cooperatività e transizione conformazionale T ↔ R"...
+[flashcards_llm] Invio sezione 5/10: "Avvelenamento da monossido di carbonio (CO)"...
+[flashcards_llm] Invio sezione 6/10: "Effettori allosterici negativi: ruolo e tipologie"...
+
+[flashcards_llm]   Sezione 2/10: "Il gruppo eme e il ruolo delle istidine" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/10: "Meccanismo d'azione del 2,3-BPG ed effetto dell'altitudine"...
+[flashcards_llm]   Sezione 3/10: "Curve di saturazione: definizioni e confronto" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/10: "Effetto Bohr e regolazione da CO₂ e H⁺"...
+[flashcards_llm]   Sezione 5/10: "Avvelenamento da monossido di carbonio (CO)" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/10: "Emoglobina fetale e trasporto placentare"...
+[flashcards_llm]   Sezione 6/10: "Effettori allosterici negativi: ruolo e tipologie" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/10: "Riepilogo finale sulle proprietà funzionali"...
+[flashcards_llm]   Sezione 4/10: "Cooperatività e transizione conformazionale T ↔ R" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 8/10: "Effetto Bohr e regolazione da CO₂ e H⁺" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 7/10: "Meccanismo d'azione del 2,3-BPG ed effetto dell'altitudine" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 9/10: "Emoglobina fetale e trasporto placentare" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 10/10: "Riepilogo finale sulle proprietà funzionali" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 1/10: "Struttura e funzione di mioglobina ed emoglobina" → 3 card, 0 brain dump
+[flashcards_llm] Deduplicazione: 2 card rimosse (19 → 17)
+[anki] Aggiunte 17 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 17 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_04_studio.md (9 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (4 lezioni)
+[01:31:20] <<< biochimica/lezione_04 completato
+
+[01:31:20] >>> biochimica/lezione_05
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 10 sezioni trovate in lezione_05_studio.md
+[flashcards_llm] Invio sezione 1/10: "Introduzione al corso e programma"...
+[flashcards_llm] Invio sezione 2/10: "Classificazione funzionale delle proteine"...
+[flashcards_llm] Invio sezione 3/10: "Proteine fibrose: definizione e cheratine"...
+[flashcards_llm] Invio sezione 4/10: "La famiglia del collagene: struttura e tipi"...
+[flashcards_llm] Invio sezione 5/10: "Procollagene: struttura, domini e assemblaggio gerarchico"...
+[flashcards_llm] Invio sezione 6/10: "Nomenclatura del collagene"...
+[flashcards_llm]   Sezione 1/10: "Introduzione al corso e programma" → 0 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/10: "Sintesi intracellulare e modifiche post-traduzionali"...
+[flashcards_llm]   Sezione 5/10: "Procollagene: struttura, domini e assemblaggio gerarchico" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/10: "Secrezione, maturazione extracellulare e formazione dei cross-link"...
+[flashcards_llm]   Sezione 2/10: "Classificazione funzionale delle proteine" → 1 card, 0 brain dump
+[flashcards_llm] Invio sezione 9/10: "Specificità tissutale e degradazione del collagene"...
+[flashcards_llm]   Sezione 6/10: "Nomenclatura del collagene" → 5 card, 0 brain dump
+[flashcards_llm] Invio sezione 10/10: "Patologie genetiche del collagene: l'esempio dell'Osteogenesi Imperfetta"...
+[flashcards_llm]   Sezione 7/10: "Sintesi intracellulare e modifiche post-traduzionali" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 10/10: "Patologie genetiche del collagene: l'esempio dell'Osteogenesi Imperfetta" → 5 card, 1 brain dump
+[flashcards_llm]   Sezione 9/10: "Specificità tissutale e degradazione del collagene" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 8/10: "Secrezione, maturazione extracellulare e formazione dei cross-link" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 3/10: "Proteine fibrose: definizione e cheratine" → 5 card, 1 brain dump
+[flashcards_llm]   Sezione 4/10: "La famiglia del collagene: struttura e tipi" → 10 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 4 card rimosse (36 → 32)
+[anki] Aggiunte 32 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 32 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_05_studio.md (7 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (5 lezioni)
+[01:35:10] <<< biochimica/lezione_05 completato
+
+[01:35:10] >>> biochimica/lezione_06
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 10 sezioni trovate in lezione_06_studio.md
+[flashcards_llm] Invio sezione 1/10: "Introduzione e Organizzazione Gerarchica"...
+[flashcards_llm] Invio sezione 2/10: "Struttura del Sarcomero e Principio della Contrazione"...[flashcards_llm] Invio sezione 3/10: "Struttura e Funzione della Miosina"...
+
+[flashcards_llm] Invio sezione 4/10: "Struttura e Funzione dell'Actina"...
+[flashcards_llm] Invio sezione 5/10: "Meccanismo Molecolare: Il Ciclo dei Ponti Trasversali"...[flashcards_llm] Invio sezione 6/10: "Coordinazione, Contesto e Mantenimento Strutturale"...
+
+[flashcards_llm]   Sezione 5/10: "Meccanismo Molecolare: Il Ciclo dei Ponti Trasversali" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/10: "Regolazione Negativa da Parte del Calcio: Tropomiosina e Troponina"...
+[flashcards_llm]   Sezione 3/10: "Struttura e Funzione della Miosina" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/10: "Dinamicità Cellulare e Regolazione Transiente"...
+[flashcards_llm]   Sezione 4/10: "Struttura e Funzione dell'Actina" → 5 card, 0 brain dump
+[flashcards_llm] Invio sezione 9/10: "Patologie da Mutazioni in Proteine Contrattili"...
+[flashcards_llm]   Sezione 6/10: "Coordinazione, Contesto e Mantenimento Strutturale" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/10: "Sistemi Contrattili Non Muscolari"...
+[flashcards_llm]   Sezione 1/10: "Introduzione e Organizzazione Gerarchica" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 2/10: "Struttura del Sarcomero e Principio della Contrazione" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 10/10: "Sistemi Contrattili Non Muscolari" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 8/10: "Dinamicità Cellulare e Regolazione Transiente" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 7/10: "Regolazione Negativa da Parte del Calcio: Tropomiosina e Troponina" → 2 card, 2 brain dump
+[flashcards_llm]   Sezione 9/10: "Patologie da Mutazioni in Proteine Contrattili" → 4 card, 1 brain dump
+[anki] Aggiunte 19 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 19 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_06_studio.md (10 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (6 lezioni)
+[01:38:42] <<< biochimica/lezione_06 completato
+
+[01:38:42] >>> biochimica/lezione_07
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 9 sezioni trovate in lezione_07_studio.md
+[flashcards_llm] Invio sezione 1/9: "Emoglobinopatie: Malattia Molecolare"...
+[flashcards_llm] Invio sezione 2/9: "Anemia Falciforme (HbS): Mutazione, Meccanismo e Conseguenze"...
+[flashcards_llm] Invio sezione 3/9: "Correlazione tra Allele S e Malaria: Paradosso Evolutivo"...[flashcards_llm] Invio sezione 4/9: "Esercizio: Altre Mutazioni dell'Emoglobina"...
+[flashcards_llm] Invio sezione 5/9: "Proteine del Sistema Immunitario: Introduzione"...
+
+[flashcards_llm] Invio sezione 6/9: "Anticorpi (Immunoglobuline): Struttura e Funzione"...
+[flashcards_llm]   Sezione 5/9: "Proteine del Sistema Immunitario: Introduzione" → 0 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/9: "Dominio Immunoglobulinico e Specificità del Legame"...
+[flashcards_llm]   Sezione 2/9: "Anemia Falciforme (HbS): Mutazione, Meccanismo e Conseguenze" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/9: "Il Complesso MHC e la Presentazione dell'Antigene"...
+[flashcards_llm]   Sezione 1/9: "Emoglobinopatie: Malattia Molecolare" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/9: "Il Recettore dei Linfociti T (TCR)"...
+[flashcards_llm]   Sezione 6/9: "Anticorpi (Immunoglobuline): Struttura e Funzione" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 3/9: "Correlazione tra Allele S e Malaria: Paradosso Evolutivo" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 4/9: "Esercizio: Altre Mutazioni dell'Emoglobina" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 8/9: "Il Complesso MHC e la Presentazione dell'Antigene" → 5 card, 1 brain dump
+[flashcards_llm]   Sezione 9/9: "Il Recettore dei Linfociti T (TCR)" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 7/9: "Dominio Immunoglobulinico e Specificità del Legame" → 6 card, 1 brain dump
+[anki] Aggiunte 25 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 25 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_07_studio.md (8 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (7 lezioni)
+[01:41:58] <<< biochimica/lezione_07 completato
+
+[01:41:58] >>> istologia/lezione_01
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 9 sezioni trovate in lezione_01_studio.md
+[flashcards_llm] Invio sezione 1/9: "Introduzione all'Istologia"...
+[flashcards_llm] Invio sezione 2/9: "Il Tessuto: Definizione e Classificazione"...[flashcards_llm] Invio sezione 3/9: "Correlazione Forma-Funzione e Limiti di Osservazione"...
+[flashcards_llm] Invio sezione 4/9: "Microscopia Ottica"...
+[flashcards_llm] Invio sezione 5/9: "Microscopia Elettronica e Tecniche Avanzate"...
+
+[flashcards_llm] Invio sezione 6/9: "Ricerca Applicata: Ingegneria Tissutale con Scaffold"...
+[flashcards_llm]   Sezione 3/9: "Correlazione Forma-Funzione e Limiti di Osservazione" → 3 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/9: "Preparazione del Campione: Fissazione"...
+[flashcards_llm]   Sezione 1/9: "Introduzione all'Istologia" → 1 card, 0 brain dump
+[flashcards_llm] Invio sezione 8/9: "Preparazione del Campione: Inclusione e Colorazione"...
+[flashcards_llm]   Sezione 2/9: "Il Tessuto: Definizione e Classificazione" → 2 card, 0 brain dump
+[flashcards_llm] Invio sezione 9/9: "Analisi di un Preparato: Mucosa Intestinale"...
+[flashcards_llm]   Sezione 6/9: "Ricerca Applicata: Ingegneria Tissutale con Scaffold" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 5/9: "Microscopia Elettronica e Tecniche Avanzate" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 4/9: "Microscopia Ottica" → 6 card, 0 brain dump
+[flashcards_llm]   Sezione 9/9: "Analisi di un Preparato: Mucosa Intestinale" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 8/9: "Preparazione del Campione: Inclusione e Colorazione" → 3 card, 2 brain dump
+[flashcards_llm]   Sezione 7/9: "Preparazione del Campione: Fissazione" → 6 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 1 card rimosse (29 → 28)
+[anki] Aggiunte 28 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 28 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_01_studio.md (6 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/brain_dump_istologia.md (1 lezioni)
+[01:44:23] <<< istologia/lezione_01 completato
+
+
+=================================================================
+  FASE 2 — Pipeline completa (Groq) per nuovi audio
+=================================================================
+
+[01:44:23] >>> anatomia/lezione_06 (lezione_6.m4a)
+
+============================================================
+  Pipeline: anatomia / lezione_06
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_6.m4a (filtri + normalizzazione)...
+[transcribe] Audio 104 min → 7 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/7 (12.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2046 parole
+[transcribe-groq] Trascrizione chunk 2/7 (12.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2112 parole
+[transcribe-groq] Trascrizione chunk 3/7 (12.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2048 parole
+[transcribe-groq] Trascrizione chunk 4/7 (12.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2132 parole
+[transcribe-groq] Trascrizione chunk 5/7 (12.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2259 parole
+[transcribe-groq] Trascrizione chunk 6/7 (12.4MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2054 parole
+[transcribe-groq] Trascrizione chunk 7/7 (11.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1772 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_06/lezione_6.txt (~14423 parole)
+[pipeline] Rinominato lezione_6.txt → lezione_06.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 8 segmenti (451 frasi totali)
+  [1] Introduzione e struttura del disco intervertebrale (~1455 parole)
+  [2] Funzione ammortizzante del disco e meccanismo di idratazione (~1191 parole)
+  [3] Curvature della colonna vertebrale e loro ruolo biomeccanico (~2010 parole)
+  [4] Fenotipi della colonna (statico, dinamico, normale) e loro implicazioni (~1601 parole)
+  [5] Carichi sulla colonna nelle attività quotidiane e posture (~1643 parole)
+  [6] Degenerazione del disco, formazione dell'ernia e sintomatologia (~2819 parole)
+  [7] Anatomia dei nervi spinali, cauda equina e dermatomi (~2283 parole)
+  [8] Struttura dei nervi periferici, riflessi e test diagnostici (~2725 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/8: segmento_01.txt
+[elaborate] Elaboro segmento 2/8: segmento_02.txt
+[elaborate] Elaboro segmento 3/8: segmento_03.txt
+[elaborate] Elaboro segmento 4/8: segmento_04.txt
+[elaborate] Elaboro segmento 5/8: segmento_05.txt
+[elaborate] Elaboro segmento 6/8: segmento_06.txt
+[elaborate] Elaboro segmento 7/8: segmento_07.txt
+[elaborate] Elaboro segmento 8/8: segmento_08.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 8 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_06.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_06_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 9 sezioni trovate in lezione_06_studio.md
+[flashcards_llm] Invio sezione 1/9: "Il Disco Intervertebrale: Struttura e Funzione"...
+[flashcards_llm] Invio sezione 2/9: "Degenerazione, Scambio di Fluidi e Ciclo Idratativo"...[flashcards_llm] Invio sezione 3/9: "Architettura Funzionale della Colonna e Ruolo delle Curve"...
+[flashcards_llm] Invio sezione 4/9: "Fenotipi Vertebrali, Indice di Delmas e Postura"...[flashcards_llm] Invio sezione 5/9: "Carico sulla Colonna: Punti Critici, Fattori Modificanti e Meccanica"...
+[flashcards_llm] Invio sezione 6/9: "Degenerazione Avanzata e Formazione dell'Ernia Discale"...
+
+
+[flashcards_llm]   Sezione 5/9: "Carico sulla Colonna: Punti Critici, Fattori Modificanti e Meccanica" → 6 card, 2 brain dump
+[flashcards_llm] Invio sezione 7/9: "Sintomatologia e Meccanismi Neurologici dell'Ernia"...
+[flashcards_llm]   Sezione 3/9: "Architettura Funzionale della Colonna e Ruolo delle Curve" → 1 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/9: "Differenze Regionali: Ernia Cervicale vs. Lombare"...
+[flashcards_llm]   Sezione 6/9: "Degenerazione Avanzata e Formazione dell'Ernia Discale" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 9/9: "Anatomia del Nervo Spinale, Cauda Equina e Semeiotica"...
+[flashcards_llm]   Sezione 4/9: "Fenotipi Vertebrali, Indice di Delmas e Postura" → 3 card, 1 brain dump
+[flashcards_llm]   Sezione 1/9: "Il Disco Intervertebrale: Struttura e Funzione" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 2/9: "Degenerazione, Scambio di Fluidi e Ciclo Idratativo" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 7/9: "Sintomatologia e Meccanismi Neurologici dell'Ernia" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 8/9: "Differenze Regionali: Ernia Cervicale vs. Lombare" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 9/9: "Anatomia del Nervo Spinale, Cauda Equina e Semeiotica" → 5 card, 3 brain dump
+[anki] Aggiunte 18 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 18 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_06_studio.md (12 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (6 lezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_06.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_06_studio.md
+============================================================
+
+[02:12:34] <<< anatomia/lezione_06 completato
+
+[02:12:34] >>> anatomia/lezione_canzi_01 (lezione_canzi_1.m4a)
+
+============================================================
+  Pipeline: anatomia / lezione_canzi_01
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_canzi_1.m4a (filtri + normalizzazione)...
+[transcribe] Audio 42 min → 3 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/3 (13.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1614 parole
+[transcribe-groq] Trascrizione chunk 2/3 (13.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1586 parole
+[transcribe-groq] Trascrizione chunk 3/3 (10.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1426 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_canzi_01/lezione_canzi_1.txt (~4626 parole)
+[pipeline] Rinominato lezione_canzi_1.txt → lezione_canzi_01.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 6 segmenti (188 frasi totali)
+  [1] Introduzione del docente e importanza dell'anatomia nella formazione medica e chirurgica (~794 parole)
+  [2] Esempi culturali e significato del collo: da Gadda a Modigliani (~606 parole)
+  [3] Definizione anatomica del collo, suoi limiti e approcci di studio (sistematico vs topografico) (~725 parole)
+  [4] Introduzione all'anatomia topografica: i triangoli superficiali del collo (~875 parole)
+  [5] Descrizione dettagliata dei triangoli anteriori del collo (sottomentoniero, sottomandibolare, muscolare, carotico) (~1852 parole)
+  [6] Descrizione dei triangoli posteriori del collo (spinale/occipitale e sovraclaveare) e conclusione (~600 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/6: segmento_01.txt
+[elaborate] Elaboro segmento 2/6: segmento_02.txt
+[elaborate] Elaboro segmento 3/6: segmento_03.txt
+[elaborate] Elaboro segmento 4/6: segmento_04.txt
+[elaborate] Elaboro segmento 5/6: segmento_05.txt
+[elaborate] Elaboro segmento 6/6: segmento_06.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 6 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_canzi_01.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_canzi_01_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 7 sezioni trovate in lezione_canzi_01_studio.md
+[flashcards_llm] Invio sezione 1/7: "Presentazione e Importanza dell'Anatomia"...
+[flashcards_llm] Invio sezione 2/7: "Il Collo: Definizione e Significato"...
+[flashcards_llm] Invio sezione 3/7: "Limiti Anatomici del Collo"...
+[flashcards_llm] Invio sezione 4/7: "Approcci allo Studio dell'Anatomia"...
+[flashcards_llm] Invio sezione 5/7: "Il Muscolo Sternocleidomastoideo: Cardine Topografico"...[flashcards_llm] Invio sezione 6/7: "Importanza Clinica dei Linfonodi del Collo"...
+
+[flashcards_llm]   Sezione 2/7: "Il Collo: Definizione e Significato" → 0 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/7: "Panoramica e Dettaglio dei Triangoli Superficiali"...
+[flashcards_llm]   Sezione 1/7: "Presentazione e Importanza dell'Anatomia" → 0 card, 0 brain dump
+[flashcards_llm]   Sezione 4/7: "Approcci allo Studio dell'Anatomia" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 3/7: "Limiti Anatomici del Collo" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 6/7: "Importanza Clinica dei Linfonodi del Collo" → 1 card, 1 brain dump
+[flashcards_llm]   Sezione 5/7: "Il Muscolo Sternocleidomastoideo: Cardine Topografico" → 4 card, 0 brain dump
+[flashcards_llm]   Sezione 7/7: "Panoramica e Dettaglio dei Triangoli Superficiali" → 8 card, 2 brain dump
+[flashcards_llm] Deduplicazione: 3 card rimosse (14 → 11)
+[anki] Aggiunte 11 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 11 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_canzi_01_studio.md (5 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (7 lezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_canzi_01.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_canzi_01_studio.md
+============================================================
+
+[02:29:53] <<< anatomia/lezione_canzi_01 completato
+
+[02:29:53] >>> istologia/lezione_02 (lezione_2.m4a)
+
+============================================================
+  Pipeline: istologia / lezione_02
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_2.m4a (filtri + normalizzazione)...
+[transcribe] Audio 58 min → 4 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/4 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1819 parole
+[transcribe-groq] Trascrizione chunk 2/4 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1629 parole
+[transcribe-groq] Trascrizione chunk 3/4 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1661 parole
+[transcribe-groq] Trascrizione chunk 4/4 (10.6MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1370 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/istologia/lezione_02/lezione_2.txt (~6479 parole)
+[pipeline] Rinominato lezione_2.txt → lezione_02.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 4 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 9 segmenti (233 frasi totali)
+  [1] Analisi di immagini istologiche e interpretazione funzionale della basofilia citoplasmatica (~743 parole)
+  [2] Introduzione alle colorazioni istochimiche specifiche (Feulgen, PAS) e loro applicazioni (~899 parole)
+  [3] Immunoistochimica: principi e applicazioni con marcatori fluorescenti ed enzimatici (~659 parole)
+  [4] Introduzione alla citologia: teoria cellulare, dimensioni e forme cellulari (~1018 parole)
+  [5] Il differenziamento cellulare: definizione, potenzialità e regolazione epigenetica (~491 parole)
+  [6] Differenziamento legato alla posizione nell'embrione precoce (~462 parole)
+  [7] La membrana plasmatica: composizione, struttura asimmetrica e glicocalice (~1241 parole)
+  [8] Funzioni del glicocalice e sua correlazione con patologie cardiovascolari (~1043 parole)
+  [9] Modello a mosaico fluido, mobilità proteica e scheletro di membrana (esempi: spettrina, distrofina) (~931 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/9: segmento_01.txt
+[elaborate] Elaboro segmento 2/9: segmento_02.txt
+[elaborate] Elaboro segmento 3/9: segmento_03.txt
+[elaborate] Elaboro segmento 4/9: segmento_04.txt
+[elaborate] Elaboro segmento 5/9: segmento_05.txt
+[elaborate] Elaboro segmento 6/9: segmento_06.txt
+[elaborate] Elaboro segmento 7/9: segmento_07.txt
+[elaborate] Elaboro segmento 8/9: segmento_08.txt
+[elaborate] Elaboro segmento 9/9: segmento_09.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 9 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_02.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (istologia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_02_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Istologia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 12 sezioni trovate in lezione_02_studio.md
+[flashcards_llm] Invio sezione 1/12: "Cellula Muscolare Striata Scheletrica"...
+[flashcards_llm] Invio sezione 2/12: "Cellule del Pancreas Esocrino e Interpretazione della Basofilia"...[flashcards_llm] Invio sezione 3/12: "Colorazioni Generiche vs. Colorazioni Specifiche Istochimiche"...
+[flashcards_llm] Invio sezione 4/12: "Colorazioni Istochimiche Specifiche"...
+
+[flashcards_llm] Invio sezione 5/12: "Immunoistochimica: Principi e Marcatori"...
+[flashcards_llm] Invio sezione 6/12: "Teoria Cellulare, Dimensioni e Forma"...
+[flashcards_llm]   Sezione 1/12: "Cellula Muscolare Striata Scheletrica" → 2 card, 0 brain dump
+[flashcards_llm] Invio sezione 7/12: "Differenziamento Cellulare e Potenzialità"...
+[flashcards_llm]   Sezione 3/12: "Colorazioni Generiche vs. Colorazioni Specifiche Istochimiche" → 3 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/12: "Modello di Differenziamento Posizionale nella Morula"...
+[flashcards_llm]   Sezione 6/12: "Teoria Cellulare, Dimensioni e Forma" → 4 card, 0 brain dump
+[flashcards_llm] Invio sezione 9/12: "Membrana Plasmatica: Modello a Mosaico Fluido e Composizione"...
+[flashcards_llm]   Sezione 2/12: "Cellule del Pancreas Esocrino e Interpretazione della Basofilia" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 10/12: "Asimmetria di Membrana: Proteine e Glicocalice"...
+[flashcards_llm]   Sezione 5/12: "Immunoistochimica: Principi e Marcatori" → 4 card, 0 brain dump
+[flashcards_llm] Invio sezione 11/12: "Correlazioni Patologiche e Danno al Glicocalice"...
+[flashcards_llm]   Sezione 8/12: "Modello di Differenziamento Posizionale nella Morula" → 1 card, 0 brain dump
+[flashcards_llm] Invio sezione 12/12: "Limitazioni alla Mobilità Proteica: Lipid Raft e Scheletro di Membrana"...
+[flashcards_llm]   Sezione 7/12: "Differenziamento Cellulare e Potenzialità" → 4 card, 1 brain dump
+[flashcards_llm]   Sezione 4/12: "Colorazioni Istochimiche Specifiche" → 7 card, 0 brain dump
+[flashcards_llm]   Sezione 10/12: "Asimmetria di Membrana: Proteine e Glicocalice" → 6 card, 0 brain dump
+[flashcards_llm]   Sezione 9/12: "Membrana Plasmatica: Modello a Mosaico Fluido e Composizione" → 7 card, 0 brain dump
+[flashcards_llm]   Sezione 12/12: "Limitazioni alla Mobilità Proteica: Lipid Raft e Scheletro di Membrana" → 8 card, 1 brain dump
+[flashcards_llm]   Sezione 11/12: "Correlazioni Patologiche e Danno al Glicocalice" → 4 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 2 card rimosse (52 → 50)
+[anki] Aggiunte 50 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 50 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_02_studio.md (5 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/brain_dump_istologia.md (2 lezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_02.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/lezione_02_studio.md
+============================================================
+
+[02:58:08] <<< istologia/lezione_02 completato
+
+
+=================================================================
+  FASE 3 — Aggregazione brain dump + sync vault
+=================================================================
+
+[02:58:08] Aggregazione brain dump: anatomia
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (7 lezioni)
+[02:58:08] Aggregazione brain dump: biochimica
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (7 lezioni)
+[02:58:08] Aggregazione brain dump: istologia
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/brain_dump_istologia.md (2 lezioni)
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 14 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 10 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 6 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 5 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 9 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 5 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 6 file copiati in Sbobine/Biochimica/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Istologia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 3 file copiati in Sbobine/Istologia/
+
+=================================================================
+  RIEPILOGO — 16 task, 114 min totali
+=================================================================
+
+  OK:    16
+  ERRORI: 0
+  SKIP:  0
+
+  ✓  anatomia/lezione_01                            OK - flashcards
+  ✓  anatomia/lezione_02                            OK - flashcards
+  ✓  anatomia/lezione_03                            OK - flashcards
+  ✓  anatomia/lezione_04                            OK - flashcards
+  ✓  anatomia/lezione_05                            OK - flashcards
+  ✓  biochimica/lezione_01                          OK - flashcards
+  ✓  biochimica/lezione_02                          OK - flashcards
+  ✓  biochimica/lezione_03                          OK - flashcards
+  ✓  biochimica/lezione_04                          OK - flashcards
+  ✓  biochimica/lezione_05                          OK - flashcards
+  ✓  biochimica/lezione_06                          OK - flashcards
+  ✓  biochimica/lezione_07                          OK - flashcards
+  ✓  istologia/lezione_01                           OK - flashcards
+  ✓  anatomia/lezione_06                            OK - pipeline completa
+  ✓  anatomia/lezione_canzi_01                      OK - pipeline completa
+  ✓  istologia/lezione_02                           OK - pipeline completa
+
+Log completo: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/overnight.log
+
+
+=================================================================
+  run_overnight.py — avviato 2026-03-10 14:15:56
+=================================================================
+
+
+=================================================================
+  FASE 1 — Flashcard + brain dump sbobine esistenti
+=================================================================
+
+
+=================================================================
+  FASE 2 — Pipeline completa (Groq) per nuovi audio
+=================================================================
+
+[14:15:56] >>> anatomia/lezione_07 (lezione_7.m4a)
+
+============================================================
+  Pipeline: anatomia / lezione_07
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_7.m4a (filtri + normalizzazione)...
+[transcribe] Audio 93 min → 7 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/7 (12.3MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1885 parole
+[transcribe-groq] Trascrizione chunk 2/7 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2060 parole
+[transcribe-groq] Trascrizione chunk 3/7 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1985 parole
+[transcribe-groq] Trascrizione chunk 4/7 (12.6MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1845 parole
+[transcribe-groq] Trascrizione chunk 5/7 (12.7MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1906 parole
+[transcribe-groq] Trascrizione chunk 6/7 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 2188 parole
+[transcribe-groq] Trascrizione chunk 7/7 (3.0MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 515 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/anatomia/lezione_07/lezione_7.txt (~12384 parole)
+[pipeline] Rinominato lezione_7.txt → lezione_07.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 3 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 8 segmenti (396 frasi totali)
+  [1] Degenerazione della colonna vertebrale: osteocondrosi e spondilofiti (~1664 parole)
+  [2] Sviluppo delle curve vertebrali e importanza della postura (~1715 parole)
+  [3] Analisi posturale e compensazioni muscolari (~1089 parole)
+  [4] Anatomia e biomeccanica del bacino e dell'osso sacro (~1874 parole)
+  [5] Movimenti del bacino e loro influenza sulla colonna vertebrale (~1276 parole)
+  [6] Muscolatura dell'anca e della colonna: azioni e antagonismi (~1836 parole)
+  [7] Conseguenze posturali: iperlordosi, spondilolistesi e posizioni antalgiche (~1899 parole)
+  [8] Valutazione clinica: dismetrie, scoliosi idiopatica e funzionale (~2289 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/8: segmento_01.txt
+[elaborate] Elaboro segmento 2/8: segmento_02.txt
+[elaborate] Elaboro segmento 3/8: segmento_03.txt
+[elaborate] Elaboro segmento 4/8: segmento_04.txt
+[elaborate] Elaboro segmento 5/8: segmento_05.txt
+[elaborate] Elaboro segmento 6/8: segmento_06.txt
+[elaborate] Elaboro segmento 7/8: segmento_07.txt
+[elaborate] Elaboro segmento 8/8: segmento_08.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 8 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_07.md
+
+--- STEP 6: Strutture chimiche ---
+[pipeline] Nessun marker chimico trovato, skip render_chem
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (anatomia)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_07_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 8 sezioni trovate in lezione_07_studio.md
+[flashcards_llm] Invio sezione 1/8: "Degenerazione Vertebrale: Processo e Conseguenze"...
+[flashcards_llm] Invio sezione 2/8: "Sviluppo Ontogenetico delle Curve Vertebrali"...[flashcards_llm] Invio sezione 3/8: "Principi di Postura e Distribuzione del Carico"...
+[flashcards_llm] Invio sezione 4/8: "Alterazioni Posturali del Ginocchio"...
+
+[flashcards_llm] Invio sezione 5/8: "Compensazioni Muscolari e Implicazioni"...[flashcards_llm] Invio sezione 6/8: "Anatomia e Biomeccanica del Bacino"...
+
+[flashcards_llm]   Sezione 2/8: "Sviluppo Ontogenetico delle Curve Vertebrali" → 0 card, 1 brain dump
+[flashcards_llm] Invio sezione 7/8: "Antagonismo Psoas-Retto Addominale e Correzione Posturale"...
+[flashcards_llm]   Sezione 1/8: "Degenerazione Vertebrale: Processo e Conseguenze" → 2 card, 1 brain dump
+[flashcards_llm] Invio sezione 8/8: "Patologie Posturali Correlate"...
+[flashcards_llm]   Sezione 3/8: "Principi di Postura e Distribuzione del Carico" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 5/8: "Compensazioni Muscolari e Implicazioni" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 4/8: "Alterazioni Posturali del Ginocchio" → 5 card, 0 brain dump
+[flashcards_llm]   Sezione 8/8: "Patologie Posturali Correlate" → 6 card, 3 brain dump
+[flashcards_llm]   Sezione 7/8: "Antagonismo Psoas-Retto Addominale e Correzione Posturale" → 6 card, 1 brain dump
+[flashcards_llm]   Sezione 6/8: "Anatomia e Biomeccanica del Bacino" → 8 card, 2 brain dump
+[flashcards_llm] Deduplicazione: 3 card rimosse (27 → 24)
+[anki] Aggiunte 24 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 24 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_07_studio.md (10 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (8 lezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_07.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/lezione_07_studio.md
+============================================================
+
+[14:34:44] <<< anatomia/lezione_07 completato
+
+[14:34:44] >>> biochimica/lezione_08 (lezione_8.m4a)
+
+============================================================
+  Pipeline: biochimica / lezione_08
+============================================================
+
+--- STEP 1: Trascrizione ---
+[transcribe] Preprocessing lezione_8.m4a (filtri + normalizzazione)...
+[transcribe] Audio 128 min → 9 chunk da ~15 min
+[transcribe-groq] Trascrizione chunk 1/9 (13.1MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1701 parole
+[transcribe-groq] Trascrizione chunk 2/9 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1621 parole
+[transcribe-groq] Trascrizione chunk 3/9 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1702 parole
+[transcribe-groq] Trascrizione chunk 4/9 (12.8MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1576 parole
+[transcribe-groq] Trascrizione chunk 5/9 (13.2MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1574 parole
+[transcribe-groq] Trascrizione chunk 6/9 (12.9MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1637 parole
+[transcribe-groq] Trascrizione chunk 7/9 (12.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1549 parole
+[transcribe-groq] Trascrizione chunk 8/9 (12.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 1544 parole
+[transcribe-groq] Trascrizione chunk 9/9 (6.5MB FLAC) via Groq...
+[groq] whisper-large-v3-turbo: trascritto 779 parole
+[transcribe-groq] TXT: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_08/lezione_8.txt (~13683 parole)
+[pipeline] Rinominato lezione_8.txt → lezione_08.txt
+
+--- STEP 2: Correzione ---
+[correct] Nessun loop Whisper rilevato
+[correct] Applicate 1 regole di correzione
+
+--- STEP 3: Segmentazione ---
+[segment] Trovati 8 segmenti (516 frasi totali)
+  [1] Introduzione alle proteine della matrice extracellulare: adesione e proteoglicani (~1515 parole)
+  [2] Fibronectina: struttura, funzioni e patologie associate (~1281 parole)
+  [3] Laminina: struttura, localizzazione, funzione e patologie (~1318 parole)
+  [4] Proteoglicani: definizione, struttura e sintesi (~2037 parole)
+  [5] Funzioni specifiche dei proteoglicani: esempi e patologie (~2724 parole)
+  [6] Introduzione agli enzimi: definizione, classificazione e proprietà generali (~2002 parole)
+  [7] Cofattori enzimatici: metalli e coenzimi (~1188 parole)
+  [8] Catalisi enzimatica: meccanismo, coordinata di reazione e energia di attivazione (~2667 parole)
+
+--- STEP 4: Elaborazione SSOT ---
+[elaborate] Elaboro segmento 1/8: segmento_01.txt
+[elaborate] Elaboro segmento 2/8: segmento_02.txt
+[elaborate] Elaboro segmento 3/8: segmento_03.txt
+[elaborate] Elaboro segmento 4/8: segmento_04.txt
+[elaborate] Elaboro segmento 5/8: segmento_05.txt
+[elaborate] Elaboro segmento 6/8: segmento_06.txt
+[elaborate] Elaboro segmento 7/8: segmento_07.txt
+[api_client] deepseek fallito ([deepseek] Timeout (300s)), tento kimi...
+[elaborate] Elaboro segmento 8/8: segmento_08.txt
+
+--- STEP 5: Fusione ---
+[merge] Fondo 8 segmenti...
+[merge] Sbobina finale: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_08.md
+
+--- STEP 6: Strutture chimiche ---
+[chem_renderer] 4 composti non risolti → /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/workspace/biochimica/lezione_08/structures/unresolved.log
+[chem_renderer] Completato. Strutture renderizzate: 6
+
+--- STEP 7: Documento di studio compatto ---
+[compact] Generazione documento compatto (biochimica)...
+[compact] Documento compatto: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_08_studio.md
+
+--- STEP 8: Sync vault Obsidian ---
+[pipeline] Vault sync: 8 file copiati in Sbobine/Biochimica/
+
+--- STEP 9: Flashcard Anki + Brain Dump ---
+[pipeline] Generazione card basic via LLM (sezione per sezione)...
+[flashcards_llm] 6 sezioni trovate in lezione_08_studio.md
+[flashcards_llm] Invio sezione 1/6: "Matrice Extracellulare: Costituenti e Funzioni"...
+[flashcards_llm] Invio sezione 2/6: "Fibronectina"...
+[flashcards_llm] Invio sezione 3/6: "Laminina"...
+[flashcards_llm] Invio sezione 4/6: "Proteoglicani"...
+[flashcards_llm] Invio sezione 5/6: "Enzimi: Definizione, Classificazione e Cofattori"...
+[flashcards_llm] Invio sezione 6/6: "Catalisi Enzimatica: Meccanismo ed Energetica"...
+[flashcards_llm]   Sezione 2/6: "Fibronectina" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 6/6: "Catalisi Enzimatica: Meccanismo ed Energetica" → 0 card, 1 brain dump
+[flashcards_llm]   Sezione 4/6: "Proteoglicani" → 4 card, 3 brain dump
+[flashcards_llm]   Sezione 3/6: "Laminina" → 4 card, 2 brain dump
+[flashcards_llm]   Sezione 1/6: "Matrice Extracellulare: Costituenti e Funzioni" → 2 card, 1 brain dump
+[flashcards_llm]   Sezione 5/6: "Enzimi: Definizione, Classificazione e Cofattori" → 16 card, 1 brain dump
+[flashcards_llm] Deduplicazione: 3 card rimosse (28 → 25)
+[anki] Aggiunte 25 card basic, 0 duplicate saltate
+[flashcards_llm] Totale: 25 card aggiunte ad Anki
+[flashcards_llm] Brain dump appeso a lezione_08_studio.md (9 topic)
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (8 lezioni)
+
+============================================================
+  Sbobina archivio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_08.md
+  Documento studio: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/lezione_08_studio.md
+============================================================
+
+[14:58:34] <<< biochimica/lezione_08 completato
+
+
+=================================================================
+  FASE 3 — Aggregazione brain dump + sync vault
+=================================================================
+
+[14:58:34] Aggregazione brain dump: anatomia
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/anatomia/brain_dump_anatomia.md (8 lezioni)
+[14:58:34] Aggregazione brain dump: biochimica
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/biochimica/brain_dump_biochimica.md (8 lezioni)
+[14:58:34] Aggregazione brain dump: istologia
+[pipeline] Brain dump aggregato: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/sbobine/istologia/brain_dump_istologia.md (2 lezioni)
+[pipeline] Vault sync: 3 file copiati in Sbobine/Anatomia/
+[pipeline] Vault sync: 8 file copiati in Sbobine/Biochimica/
+
+=================================================================
+  RIEPILOGO — 2 task, 43 min totali
+=================================================================
+
+  OK:    2
+  ERRORI: 0
+  SKIP:  0
+
+  ✓  anatomia/lezione_07                            OK - pipeline completa
+  ✓  biochimica/lezione_08                          OK - pipeline completa
+
+Log completo: /Users/ebrahimabdelwahed/Desktop/Med/Lezioni/Audio_to_Sbobina/overnight.log
+

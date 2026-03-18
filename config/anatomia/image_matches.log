@@ -1,0 +1,78 @@
+Soglia: 0.65
+Immagini inserite: 35/274
+
+  KEEP  (0.63): placeholder 'embrione con cavità in formazione' — nessun match
+  KEEP  (0.63): placeholder 'anatomia di superficie con punti ossei e linee di riferiment' — nessun match
+  KEEP  (0.44): placeholder 'bacino femminile con misurazioni' — nessun match
+  MATCH (0.70): 'schema anatomico generale del tronco umano con suddivisione ' → anatomia_topografica_corpo_umano
+  SKIP  (0.63): 'schema di sezione trasversale della testa a livello dei vent' — sotto soglia
+  MATCH (0.71): 'figura di anatomia di superficie del torace anteriore con ri' → valutazione_radiografica_torace_scheletro
+  MATCH (0.77): 'radiografia laterale della colonna vertebrale toracica che m' → meccanismo_torsione_scoliosi
+  MATCH (0.79): 'schema anatomico del cuore in sezione sagittale che mostra a' → anatomia_funzionale_cuore_sezionato
+  SKIP  (0.47): 'schema gerarchico dei livelli di organizzazione biologica da' — sotto soglia
+  MATCH (0.69): 'schema comparativo dei quattro tipi fondamentali di tessuto ' → confronto_tipi_tessuto_muscolare
+  SKIP  (0.60): 'sezione istologica trasversale del cuore che mostra la strat' — sotto soglia
+  SKIP  (0.53): 'diagramma schematico di integrazione sistemica apparato card' — sotto soglia
+  MATCH (0.69): 'confronto schematico tra articolazione sferica enartrosi e a' → classificazione_tipi_articolazioni_movimento
+  SKIP  (0.58): 'schema integrato apparato cardiocircolatorio e respiratorio ' — sotto soglia
+  MATCH (0.70): 'schema anatomico di un muscolo scheletrico con fibre paralle' → organizzazione_muscolatura_scheletrica
+  MATCH (0.67): 'schema della parete di un organo cavo come l'intestino con s' → muscolo_circolare_schema
+  MATCH (0.65): 'schema anatomico del cuore con rappresentazione dell'orienta' → proiezione_valvole_cardiache_torace
+  SKIP  (0.62): 'schema anatomico della cavità addominale con posizione del f' — sotto soglia
+  MATCH (0.81): 'illustrazione scheletrica anteriore e posteriore del corpo u' → punti_repere_ossei_superficie
+  MATCH (0.71): 'schema anatomico della regione del collo e del torace superi' → anatomia_muscoli_collo_laterali
+  MATCH (0.69): 'vista laterale del cranio e del rachide cervicale con identi' → rachide_cervicale_laterale
+  MATCH (0.70): 'schema topografico della regione del collo anteriore con rap' → anatomia_tiroide_laringe_trachea
+  SKIP  (0.60): 'angiografia TC 3D ricostruzione vascolare della regione cerv' — sotto soglia
+  MATCH (0.70): 'radiografia standard del torace postero-anteriore con esempi' → radiografia_torace_proiezioni
+  MATCH (0.73): 'schema illustrativo degli archi cardiaci sul profilo sinistr' → anatomia_radiografica_cuore_proiezione_pa
+  SKIP  (0.62): 'schema piani di riferimento anatomici sagittale coronale tra' — sotto soglia
+  SKIP  (0.55): 'schema topografico punti di auscultazione cardiaca sul torac' — sotto soglia
+  MATCH (0.67): 'schema anatomico dei piani di sezione fondamentali del corpo' → sezioni_anatomiche_cavita_corporee
+  SKIP  (0.62): 'schema cranio con piano di sezione angolato per la base cran' — sotto soglia
+  MATCH (0.67): 'serie di immagini TC assiali del torace o addome con convenz' → orientamento_proiezioni_radiografia_torace
+  MATCH (0.70): 'schema anatomico anteriore del corpo umano con indicazione r' → scheletro_umano_anatomia_generale_2
+  MATCH (0.70): 'sezione sagittale mediana del tronco umano con indicazione r' → anatomia_diaframma_parete_addominale
+  MATCH (0.72): 'schema delle cavità corporee in vista anteriore con delimita' → cavita_corporee_anatomia
+  SKIP  (0.63): 'schema dei piani di sezione anatomici sagittale frontale cor' — sotto soglia
+  SKIP  (0.64): 'sezione sagittale mediana del tronco umano che mostra rappor' — sotto soglia
+  SKIP  (0.64): 'vista anteriore della cavità addominale e toracica che mostr' — sotto soglia
+  SKIP  (0.58): 'serie di sezioni trasversali anatomiche del corpo umano a li' — sotto soglia
+  SKIP  (0.63): 'schema sagittale mediano delle cavità corporee principali ca' — sotto soglia
+  MATCH (0.69): 'schema embriologico della parete addominale anteriore in chi' → onfalocele_neonato
+  MATCH (0.71): 'embrione umano di due mesi in vista laterale con evidenziazi' → organogenesi_sviluppo_embrionale
+  MATCH (0.65): 'sezione sagittale di embrione con evidenziazione del diafram' → neurulazione_embrionale_tubo_neurale
+  MATCH (0.67): 'schema sagittale mediano delle cavità corporee principali co' → meccanica_pressione_addominale
+  SKIP  (0.64): 'schema trasversale della cavità addomino-pelvica con suddivi' — sotto soglia
+  SKIP  (0.63): 'schema anatomico generale delle principali membrane sierose ' — sotto soglia
+  SKIP  (0.63): 'schema istologico della struttura a doppio foglietto di una ' — sotto soglia
+  MATCH (0.67): 'schema anatomico dettagliato della pleura con foglietto pari' → anatomia_parete_toracica_pleura
+  MATCH (0.67): 'schema anatomico del mediastino con cuore avvolto dal perica' → anatomia_parete_toracica_interna
+  SKIP  (0.56): 'schema illustrativo del tamponamento cardiaco che mostra il ' — sotto soglia
+  SKIP  (0.60): 'schema della cavità addominale con intestino tenue e crasso ' — sotto soglia
+  SKIP  (0.64): 'schema anatomico del pericardio in sezione sagittale che mos' — sotto soglia
+  SKIP  (0.60): 'schema dettagliato a doppio foglietto del pericardio che mos' — sotto soglia
+  SKIP  (0.55): 'rappresentazione schematica o ecocardiografica di tamponamen' — sotto soglia
+  SKIP  (0.63): 'schema anatomico della pleura parietale e viscerale con spaz' — sotto soglia
+  SKIP  (0.56): 'radiografia del torace che mostra pneumotorace con collasso ' — sotto soglia
+  SKIP  (0.55): 'schema anatomico della loggia renale in sezione trasversale ' — sotto soglia
+  SKIP  (0.48): 'schema comparativo anatomia renale normale vs ptosi renale c' — sotto soglia
+  MATCH (0.70): 'schema anatomico della parete addominale anteriore con strat' → anatomia_parete_addominale_trasverso
+  SKIP  (0.60): 'schema sagittale della cavità addominale con peritoneo parie' — sotto soglia
+  SKIP  (0.63): 'schema comparativo dei tipi di tessuto connettivo lasso dens' — sotto soglia
+  SKIP  (0.62): 'schema sagittale della cavità addomino-pelvica con peritoneo' — sotto soglia
+  SKIP  (0.65): 'schema stratificato della parete corporea con cute tessuto s' — sotto soglia
+  SKIP  (0.65): 'illustrazione della posizione anatomica standard di riferime' — sotto soglia
+  SKIP  (0.65): 'schema tridimensionale dei piani anatomici principali sagitt' — sotto soglia
+  MATCH (0.79): 'schema anatomico del cranio con indicazione della sutura sag' → suture_craniche_norma_verticalis
+  SKIP  (0.59): 'schema anatomico del cranio con indicazione della sutura cor' — sotto soglia
+  SKIP  (0.62): 'schema dei tre piani di sezione anatomici principali sagitta' — sotto soglia
+  MATCH (0.65): 'schema tridimensionale dei piani anatomici sagittale frontal' → gradi_liberta_movimento_articolare
+  MATCH (0.71): 'diagramma di movimento articolare che mostra esempi di fless' → movimenti_rotatori_anatomia
+  MATCH (0.68): 'schema anatomico di un torso o di un corpo intero con frecce' → scheletro_umano_anatomia_generale
+  MATCH (0.73): 'schema anatomico dell'avambraccio che mostra le ossa radio e' → movimenti_rotatori_anatomia_2
+  MATCH (0.68): 'schema posturale vista laterale con linea verticale di rifer' → anatomia_topografica_bacino_dismetria
+  MATCH (0.79): 'schema comparativo ginocchio valgo e varo vista frontale con' → deformita_arto_inferiore_piani
+  MATCH (0.66): 'schema ginocchio iperesteso recurvato vista laterale con ind' → anatomia_articolazione_ginocchio_sez_trasversa
+  SKIP  (0.64): 'anatomia di superficie regione lombare posteriore con fosset' — sotto soglia
+  SKIP  (0.53): 'schema bacino femminile con misurazioni pelvimetriche diamet' — sotto soglia
