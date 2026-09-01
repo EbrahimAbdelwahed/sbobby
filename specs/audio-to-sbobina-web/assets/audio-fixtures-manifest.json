@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "generator": "sbobby-web/scripts/generate-audio-fixtures.mjs",
+  "durationSeconds": 5400,
+  "source": "lavfi sine 440Hz, mono, 16kHz",
+  "encoding": {
+    "mp3": "libmp3lame CBR 48k, no Xing",
+    "m4a": "AAC CBR 48k, faststart"
+  },
+  "fixtures": [
+    {
+      "id": "lecture-90m-mp3",
+      "path": "sbobby-web/tests/fixtures/audio/generated/lecture-90m.mp3",
+      "extension": ".mp3",
+      "mediaType": "audio/mpeg",
+      "sha256": "06a2fb3fbb3c4c06a440a0737663aabeb772a164e575abfc4016044045992b22"
+    },
+    {
+      "id": "lecture-90m-m4a",
+      "path": "sbobby-web/tests/fixtures/audio/generated/lecture-90m.m4a",
+      "extension": ".m4a",
+      "mediaType": "audio/mp4",
+      "sha256": "6c99000a6b464fc3aede7d7d92ddb4d8834a6cb031afac52c5f15bbbb62cb5d6"
+    }
+  ],
+  "hostileFixtures": [
+    { "id": "truncated-mp3", "construction": "first 128 bytes of lecture-90m.mp3" },
+    { "id": "mime-lie", "construction": "valid MP3 bytes named .m4a and audio/mp4" },
+    { "id": "malformed-container", "construction": "random bytes with .mp3 extension" },
+    { "id": "metadata-bomb", "construction": "oversized ID3/APIC metadata beyond source cap" },
+    { "id": "expansion-bomb", "construction": "valid container whose decoded duration exceeds 180 minutes" },
+    { "id": "cap-boundaries", "construction": "buffers at 3,499,999 / 3,500,000 / 3,500,001 bytes" },
+    { "id": "worker-crash-repeat", "construction": "same invalid input submitted repeatedly" }
+  ]
+}
