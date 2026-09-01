@@ -1,8 +1,9 @@
 # Audio-to-Sbobina Web — implementation specification
 
-Status: Planned
+Status: Implementing — S00 feasibility gate
 Last updated: 2026-09-01
 Target application: `sbobby-web/`
+Vercel project: `audio-to-sbobina` (separate from the existing `sbobby-web`)
 
 ## Next Agent Prompt
 
@@ -12,8 +13,13 @@ pipeline until its stop/go gate passes. Work only in `sbobby-web/` plus this spe
 and the required `dev/` records. Preserve `biochimica-sites/` and the historical
 Python pipeline; they are evidence, not runtime dependencies.
 
+Deploy only to the separate `audio-to-sbobina` Vercel project. The existing
+`sbobby-web` project and `sbobby-web.vercel.app` production alias are explicitly
+outside this implementation and must remain unchanged.
+
 Current status: product decisions, repository reconnaissance, Vercel research,
-and the slice graph are complete. No application implementation has started.
+the slice graph, and the separate-deployment boundary are complete. S00 is in
+progress; no downstream product slice may start until its gate passes.
 
 Exact next pickup point: build the isolated `/dev/workbench/audio-ingress`
 probe, generate the deterministic 90-minute M4A/MP3 fixtures, and prove valid

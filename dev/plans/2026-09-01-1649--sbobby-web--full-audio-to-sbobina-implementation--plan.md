@@ -21,9 +21,9 @@ close the spec without overwriting the existing Sbobby medical-study product.
 
 ## Approach
 
-1. Preserve the existing `sbobby-web.vercel.app` production deployment while
-   reconciling the empty local source tree. Use a separate Vercel project for
-   the new app if the old source cannot be safely recovered and extended.
+1. Preserve the existing `sbobby-web.vercel.app` production deployment. Keep
+   the source in local `sbobby-web/`, but deploy it only through the separate
+   Vercel project `audio-to-sbobina` per ADR-0001.
 2. S00 stop/go: scaffold the permanent Next.js/test foundation, implement one
    browser audio adapter, fixture generator, protected Groq probe, and prove the
    no-storage byte/runtime/CSP contract on local browsers and Vercel preview.
