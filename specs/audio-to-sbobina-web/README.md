@@ -41,9 +41,10 @@ Fast-iteration TODO (supersedes the original slice ordering below):
 
 - [x] Separate the new Vercel project from the existing Sbobby production app.
 - [x] Build the private upload/progress/reader/search/PDF web journey.
-- [ ] Build and locally smoke the Python/FFmpeg Runpod worker.
+- [x] Build, smoke, and deploy the Python/FFmpeg Runpod worker.
 - [ ] Configure Runpod, Blob, and beta access credentials.
-- [ ] Deploy Preview and complete one real audio journey.
+- [x] Deploy the separate Vercel app.
+- [ ] Complete one real audio journey.
 
 Original detailed backlog retained for later hardening:
 

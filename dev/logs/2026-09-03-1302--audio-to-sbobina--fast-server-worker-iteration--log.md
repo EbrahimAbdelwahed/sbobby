@@ -12,8 +12,9 @@ study documents, supports literal search, generates PDFs, and keeps completed
 text locally in the browser for 30 days. A Python/FFmpeg worker implements the
 full Groq transcription and DeepSeek text pipeline.
 
-Remote publication remains blocked only by the missing Runpod/Blob deployment
-credentials and authorization to transfer the existing provider secrets.
+The web app and worker were published. The real audio journey remains blocked
+only by Blob provisioning and authorization to transfer the existing provider
+secrets.
 
 ## Files Changed
 
@@ -33,9 +34,12 @@ credentials and authorization to transfer the existing provider secrets.
 - `node_modules/.bin/tsc --noEmit`: passed.
 - `node_modules/.bin/next build`: passed.
 - Local production login and `/app` browser smoke: passed.
+- `flash deploy --no-deps`: deployed endpoint `vu0rlld758qrrg` to production.
+- `vercel deploy --yes`: deployed and aliased `https://audio-to-sbobina.vercel.app`.
 
 ## Notes
 
 - The separate Vercel project is `audio-to-sbobina`; the existing Sbobby production deployment was not changed.
 - Required release variables: `APP_ACCESS_CODE`, `APP_SESSION_TOKEN`, `BLOB_READ_WRITE_TOKEN`, `RUNPOD_API_KEY`, and `RUNPOD_ENDPOINT_ID` on Vercel; `GROQ_API_KEY` and `DEEPSEEK_API_KEY` on Runpod.
 - The earlier S00 browser workbench remains a later hardening/prototype artifact and is not a release gate.
+- Runpod's generated `.runpod/` local state can contain credentials; it was removed and the directory is now ignored.
