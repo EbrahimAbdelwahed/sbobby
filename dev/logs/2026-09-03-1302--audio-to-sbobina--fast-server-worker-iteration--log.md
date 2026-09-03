@@ -35,9 +35,13 @@ secrets.
 - `node_modules/.bin/next build`: passed.
 - Local production login and `/app` browser smoke: passed.
 - `flash deploy --no-deps`: deployed endpoint `vu0rlld758qrrg` to production.
-- `vercel deploy --yes`: deployed successfully; the working team alias is
-  `https://audio-to-sbobina-ebrahimabdelwaheds-projects.vercel.app` and is
-  currently behind Vercel deployment protection.
+- Initial `vercel deploy --yes`: build reported success but the project had no
+  framework preset, produced zero deployment outputs, and all aliases returned
+  `404 NOT_FOUND`.
+- Set the separate project's framework preset to `nextjs`, then ran
+  `vercel deploy --prod --yes --force`: deployment contains 33 outputs.
+- `curl -L https://audio-to-sbobina.vercel.app`: HTTP 200 at the private-beta
+  sign-in page; the original 404 no longer reproduces.
 
 ## Notes
 
