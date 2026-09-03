@@ -42,6 +42,9 @@ secrets.
   `vercel deploy --prod --yes --force`: deployment contains 33 outputs.
 - `curl -L https://audio-to-sbobina.vercel.app`: HTTP 200 at the private-beta
   sign-in page; the original 404 no longer reproduces.
+- Configured sensitive production-only `APP_ACCESS_CODE` and
+  `APP_SESSION_TOKEN` values in Vercel, redeployed, and completed a headless
+  browser login smoke through to `/app`.
 
 ## Notes
 
