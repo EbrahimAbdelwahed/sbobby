@@ -153,6 +153,8 @@ def _download_audio(url: str, target: Path, max_bytes: int) -> None:
 
 
 def _run_ffmpeg(command: list[str]) -> None:
+    if command and command[0] == "ffmpeg":
+        command[0] = _ffmpeg_executable()
     try:
         subprocess.run(command, check=True, capture_output=True, timeout=900)
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired, OSError) as exc:
@@ -161,24 +163,32 @@ def _run_ffmpeg(command: list[str]) -> None:
 
 
 def _probe_duration(path: Path) -> float:
-    command = [
-        "ffprobe",
-        "-v",
-        "error",
-        "-show_entries",
-        "format=duration",
-        "-of",
-        "default=noprint_wrappers=1:nokey=1",
-        str(path),
-    ]
+    command = [_ffmpeg_executable(), "-hide_banner", "-i", str(path)]
     try:
-        result = subprocess.run(command, check=True, capture_output=True, text=True, timeout=60)
-        duration = float(result.stdout.strip())
-    except (subprocess.CalledProcessError, subprocess.TimeoutExpired, OSError, ValueError) as exc:
+        result = subprocess.run(command, check=False, capture_output=True, text=True, timeout=60)
+        match = re.search(r"Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)", result.stderr)
+        if not match:
+            raise ValueError("duration missing")
+        hours, minutes, seconds = match.groups()
+        duration = int(hours) * 3600 + int(minutes) * 60 + float(seconds)
+    except (subprocess.TimeoutExpired, OSError, ValueError) as exc:
         raise PipelineError("AUDIO_INVALID", "audio duration could not be read") from exc
     if duration <= 0:
         raise PipelineError("AUDIO_INVALID", "audio duration is empty")
     return duration
+
+
+def _ffmpeg_executable() -> str:
+    """Use the wheel-bundled binary on Runpod and the system binary locally."""
+    try:
+        import imageio_ffmpeg
+
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except (ImportError, RuntimeError):
+        executable = shutil.which("ffmpeg")
+        if executable:
+            return executable
+        raise PipelineError("FFMPEG_MISSING", "audio runtime is unavailable")
 
 
 def _split_audio(source: Path, directory: Path, duration: float, chunk_seconds: int) -> list[tuple[int, float, float, Path]]:

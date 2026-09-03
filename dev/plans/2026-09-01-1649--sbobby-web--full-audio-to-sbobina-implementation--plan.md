@@ -21,6 +21,10 @@ close the spec without overwriting the existing Sbobby medical-study product.
 
 ## Approach
 
+> Superseded on 2026-09-03 by ADR-0002. The active delivery path is a compact
+> Vercel UI/control plane plus a Python/FFmpeg Runpod worker. The steps below
+> remain a hardening backlog, not a prerequisite for the first published beta.
+
 1. Preserve the existing `sbobby-web.vercel.app` production deployment. Keep
    the source in local `sbobby-web/`, but deploy it only through the separate
    Vercel project `audio-to-sbobina` per ADR-0001.

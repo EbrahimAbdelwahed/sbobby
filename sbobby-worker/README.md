@@ -51,6 +51,8 @@ flash deploy
 
 Configure `GROQ_API_KEY`, `DEEPSEEK_API_KEY`, and the optional limits in the
 Runpod endpoint environment. The deployment uses a CPU5C 4-vCPU/8-GB worker,
-one maximum worker, and installs `ffmpeg` as a system dependency. `flash run`
+one maximum worker. The Linux wheel for `imageio-ffmpeg` carries the FFmpeg
+binary inside the deployment artifact, so the worker does not depend on the
+base image providing FFmpeg. `flash run`
   can run the endpoint locally without contacting provider APIs when tests inject
   mock clients through `pipeline.run_pipeline`.

@@ -5,7 +5,7 @@ const securityHeaders = [
     value: [
       "default-src 'self'",
       "base-uri 'self'",
-      "connect-src 'self'",
+      "connect-src 'self' https://*.blob.vercel-storage.com https://*.public.blob.vercel-storage.com",
       "font-src 'self'",
       "form-action 'self'",
       "frame-ancestors 'none'",

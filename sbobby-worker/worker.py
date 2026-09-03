@@ -13,7 +13,6 @@ from pipeline import PipelineError, run_pipeline
     name="audio-to-sbobina",
     cpu="cpu5c-4-8",
     workers=(0, 1),
-    system_dependencies=["ffmpeg"],
     execution_timeout_ms=30 * 60 * 1000,
 )
 async def process_job(

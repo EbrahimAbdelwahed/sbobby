@@ -1,37 +1,35 @@
 # Audio-to-Sbobina Web — implementation specification
 
-Status: Implementing — S00 feasibility gate
-Last updated: 2026-09-01
+Status: Implementing — fast server-worker iteration
+Last updated: 2026-09-03
 Target application: `sbobby-web/`
 Vercel project: `audio-to-sbobina` (separate from the existing `sbobby-web`)
 
 ## Next Agent Prompt
 
-You are implementing the Audio-to-Sbobina private beta. Start with
-[Slice 00](slices/00-audio-ingress-feasibility.md) and do not create the product
-pipeline until its stop/go gate passes. Work only in `sbobby-web/` plus this spec
-and the required `dev/` records. Preserve `biochimica-sites/` and the historical
-Python pipeline; they are evidence, not runtime dependencies.
+You are implementing the Audio-to-Sbobina private beta using the fast path
+accepted in ADR-0002. Vercel owns the UI, shared-code beta access, temporary
+Blob upload tokens, and Runpod job control. A Runpod Flash Python/FFmpeg worker
+owns transcription and text processing. Optimize for an end-to-end published
+iteration before optional hardening.
 
 Deploy only to the separate `audio-to-sbobina` Vercel project. The existing
 `sbobby-web` project and `sbobby-web.vercel.app` production alias are explicitly
 outside this implementation and must remain unchanged.
 
-Current status: product decisions, repository reconnaissance, Vercel research,
-the slice graph, and the separate-deployment boundary are complete. S00 is in
-progress; no downstream product slice may start until its gate passes.
+Current status: the browser-only S00 architecture is superseded. The web shell,
+temporary Blob bridge, Runpod control routes, local 30-day result library,
+literal search, and client PDF path are being integrated with the Python worker.
 
-Exact next pickup point: build the isolated `/dev/workbench/audio-ingress`
-probe, generate the deterministic 90-minute M4A/MP3 fixtures, and prove valid
-raw request bodies at or below 3.5 MB through a Vercel preview deployment
-without any application-controlled audio persistence.
+Exact next pickup point: finish the Runpod worker smoke, configure
+`RUNPOD_API_KEY`, `RUNPOD_ENDPOINT_ID`, `BLOB_READ_WRITE_TOKEN`, and the two
+closed-beta access variables, then deploy a Vercel preview and run one short
+audio journey.
 
 Active blockers and warnings:
 
-- Vercel Functions reject request or response bodies above 4.5 MB. The audio
-  feasibility gate is mandatory.
-- Audio must never be written to IndexedDB, Vercel Blob, a database, cache,
-  filesystem, analytics, tracing, or application logs.
+- Audio is temporarily stored in Vercel Blob and the Runpod worker filesystem;
+  both copies are deleted after completion/failure where the platform permits.
 - `deepseek-v4-flash` is the only text model. There is no model fallback and no
   semantic quality benchmark. Do not claim that medical accuracy is proven.
 - Browser-local storage is not cloud backup. Cross-device sync and automatic
@@ -39,7 +37,15 @@ Active blockers and warnings:
 - Claude/Fable drafting was unavailable because the local CLI was not
   authenticated; the spec was synthesized from three independent Codex drafts.
 
-Global TODO:
+Fast-iteration TODO (supersedes the original slice ordering below):
+
+- [x] Separate the new Vercel project from the existing Sbobby production app.
+- [x] Build the private upload/progress/reader/search/PDF web journey.
+- [ ] Build and locally smoke the Python/FFmpeg Runpod worker.
+- [ ] Configure Runpod, Blob, and beta access credentials.
+- [ ] Deploy Preview and complete one real audio journey.
+
+Original detailed backlog retained for later hardening:
 
 - [ ] [S00 — prove no-storage audio ingress](slices/00-audio-ingress-feasibility.md)
 - [ ] [S01 — establish app, contracts, and invite-only auth](slices/01-foundation-contracts-auth.md)

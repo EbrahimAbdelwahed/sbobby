@@ -7,7 +7,7 @@ name = "audio-to-sbobina-worker"
 version = "0.1.0"
 description = "Runpod Flash worker for audio transcription and Italian study documents"
 requires-python = ">=3.10"
-dependencies = ["runpod-flash>=0.1.0"]
+dependencies = ["runpod-flash>=0.1.0", "imageio-ffmpeg==0.6.0"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
