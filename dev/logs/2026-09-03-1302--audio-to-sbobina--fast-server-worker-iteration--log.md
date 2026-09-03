@@ -35,7 +35,9 @@ secrets.
 - `node_modules/.bin/next build`: passed.
 - Local production login and `/app` browser smoke: passed.
 - `flash deploy --no-deps`: deployed endpoint `vu0rlld758qrrg` to production.
-- `vercel deploy --yes`: deployed and aliased `https://audio-to-sbobina.vercel.app`.
+- `vercel deploy --yes`: deployed successfully; the working team alias is
+  `https://audio-to-sbobina-ebrahimabdelwaheds-projects.vercel.app` and is
+  currently behind Vercel deployment protection.
 
 ## Notes
 
