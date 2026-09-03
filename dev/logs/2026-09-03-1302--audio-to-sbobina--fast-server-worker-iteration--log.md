@@ -12,9 +12,11 @@ study documents, supports literal search, generates PDFs, and keeps completed
 text locally in the browser for 30 days. A Python/FFmpeg worker implements the
 full Groq transcription and DeepSeek text pipeline.
 
-The web app and worker were published. The real audio journey remains blocked
-only by Blob provisioning and authorization to transfer the existing provider
-secrets.
+The web app and worker were published. A production upload failure caused by a
+missing Blob binding was reproduced and fixed by connecting a private Blob
+store, switching the browser upload to private access, and passing Runpod a
+two-hour signed read URL. The real processing journey remains blocked only by
+Runpod/provider credential configuration.
 
 ## Files Changed
 
@@ -45,10 +47,18 @@ secrets.
 - Configured sensitive production-only `APP_ACCESS_CODE` and
   `APP_SESSION_TOKEN` values in Vercel, redeployed, and completed a headless
   browser login smoke through to `/app`.
+- Production upload regression loop initially failed because `/api/upload`
+  could not issue a token. Connected the private `audio-to-sbobina-private`
+  Blob store, deployed, and reran
+  `tests/e2e/production-upload-smoke.spec.ts --project=chromium`: 1 passed.
+- `npm run build`: passed after the private-upload and signed-read-URL change.
 
 ## Notes
 
 - The separate Vercel project is `audio-to-sbobina`; the existing Sbobby production deployment was not changed.
-- Required release variables: `APP_ACCESS_CODE`, `APP_SESSION_TOKEN`, `BLOB_READ_WRITE_TOKEN`, `RUNPOD_API_KEY`, and `RUNPOD_ENDPOINT_ID` on Vercel; `GROQ_API_KEY` and `DEEPSEEK_API_KEY` on Runpod.
+- Vercel now has `APP_ACCESS_CODE`, `APP_SESSION_TOKEN`, and
+  `BLOB_READ_WRITE_TOKEN`. It still needs `RUNPOD_API_KEY` and
+  `RUNPOD_ENDPOINT_ID`; Runpod still needs `GROQ_API_KEY` and
+  `DEEPSEEK_API_KEY`.
 - The earlier S00 browser workbench remains a later hardening/prototype artifact and is not a release gate.
 - Runpod's generated `.runpod/` local state can contain credentials; it was removed and the directory is now ignored.

@@ -86,7 +86,7 @@ export default function Workspace() {
     const ext = file.name.toLowerCase().endsWith('.m4a') ? 'm4a' : 'mp3';
     const resolvedTitle = title.trim() || file.name.replace(/\.(m4a|mp3)$/i, '');
     try {
-      const blob = await upload(`audio/${crypto.randomUUID()}.${ext}`, file, { access: 'public', handleUploadUrl: '/api/upload', multipart: file.size > 20 * 1024 * 1024 });
+      const blob = await upload(`audio/${crypto.randomUUID()}.${ext}`, file, { access: 'private', handleUploadUrl: '/api/upload', multipart: file.size > 20 * 1024 * 1024 });
       setProgress(28); setStage('queued');
       const response = await fetch('/api/jobs/start', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ audioUrl: blob.url, title: resolvedTitle }) });
       const job = await response.json() as { id?: string; error?: string };

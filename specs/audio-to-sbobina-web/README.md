@@ -21,10 +21,10 @@ Current status: the browser-only S00 architecture is superseded. The web shell,
 temporary Blob bridge, Runpod control routes, local 30-day result library,
 literal search, and client PDF path are being integrated with the Python worker.
 
-Exact next pickup point: finish the Runpod worker smoke, configure
-`RUNPOD_API_KEY`, `RUNPOD_ENDPOINT_ID`, `BLOB_READ_WRITE_TOKEN`, and the two
-closed-beta access variables, then deploy a Vercel preview and run one short
-audio journey.
+Exact next pickup point: configure `RUNPOD_API_KEY` and `RUNPOD_ENDPOINT_ID` on
+Vercel plus the two provider keys on Runpod, then run one short real-audio
+journey. The closed-beta access variables and private Blob store are configured,
+and the production MP3 upload smoke passes.
 
 Active blockers and warnings:
 

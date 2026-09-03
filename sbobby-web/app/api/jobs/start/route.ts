@@ -1,5 +1,5 @@
 import { startWorkerJob } from '@/src/server/runpod';
-import { del } from '@vercel/blob';
+import { del, issueSignedToken, presignUrl } from '@vercel/blob';
 
 export const runtime = 'nodejs';
 
@@ -18,7 +18,17 @@ export async function POST(request: Request): Promise<Response> {
       return Response.json({ error: 'INVALID_JOB' }, { status: 400 });
     }
     try {
-      const result = await startWorkerJob(body.audioUrl, body.title.slice(0, 120));
+      const pathname = decodeURIComponent(new URL(body.audioUrl).pathname.slice(1));
+      const validUntil = Date.now() + 2 * 60 * 60 * 1000;
+      const signedToken = await issueSignedToken({ pathname, operations: ['get'], validUntil });
+      const { presignedUrl } = await presignUrl(signedToken, {
+        access: 'private',
+        operation: 'get',
+        pathname,
+        validUntil,
+        useCache: false,
+      });
+      const result = await startWorkerJob(presignedUrl, body.title.slice(0, 120));
       return Response.json(result, { headers: { 'Cache-Control': 'no-store' } });
     } catch (error) {
       await del(body.audioUrl).catch(() => undefined);
